@@ -1,0 +1,1 @@
+# weightdiary-localization
