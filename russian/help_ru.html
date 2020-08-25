@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Как это работает?</label>
+  </h1>
+  <div class="content">
+	<p>Вводите свой вес каждый день, и мы подсчитаем ваше изменение в весе за неделю и будем отслеживать ваш прогресс для достижения поставленной цели.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Что означает желтая линия?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>Желтая линия это линия тенденции. Принимайте это как ваш средний вес. Каждый день ваш вес будет меняться в зависимости от количества воды и продуктов в вашем организме.</p>
+
+	<p>Линия тенденции пересекает ваши ежедневные изменения в весе и показывает вам как меняется ваш вес. Если большинство данных вашего веса находятся ниже желтой линии и линия уходит вниз, значит, вы теряете вес.</p>
+
+	<p>Если же много данных вашего веса находятся выше линии тенденции (желтой линии), это значит что вам нужно сделать изменения в вашей диете чтобы снова встать на нужный путь.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">Что означают зеленые/красные стрелочки?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_ru.png" width="192" height="71" /></p>
+
+	<p>Это показывает, был ли ваш вес в указанный день выше или ниже линии тенденции.</p>
+
+	<p>Нынешнее значение тенденции в сводке показывает, сколько дней подряд вы были выше или ниже линии тенденции.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Что показывают поля Тенденции и Цели?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_ru.png" width="290" height="74" /></p>
+
+	<p>Поле тенденции рассчитывает темп потери веса. Это может быть показано в виде еженедельном потере/наборе веса либо ежедневном избытке/недоборе калорий. Щелкните на поле чтобы переключиться на еженедельный или ежедневный просмотр.</p>
+
+	<p>Поле цели вам вашу цель как полосу прогресса либо оставшееся количество времени, либо сколько веса еще осталось сбросить. Щелкните на поле чтобы переключиться между этими функциями. Примечание: оставшееся время может быть показано, только когда вы теряете вес.</p>
+
+	<p>Так как тенденция и цель подсчитываются на основе последних записей веса, любые изменения в вашей диете могут занять пару дней, чтобы отобразиться.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Почему оставшееся время в поле Цели отличается от времени в калькуляторе Цели?</label>
+  </h1>
+  <div class="content">
+	<p>Поле цели основывается на текущем темпе сбрасывания веса так как рассчитывается, основываясь на нескольких последних данный веса. Калькулятор цели это планировщик диеты и это ваша задача, изменять вашу диету до тех пор, пока поле цели не будет совпадать с вашим желаемым темпом снижения веса.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">Нужно ли мне взвешивать себя каждый день?</label>
+  </h1>
+  <div class="content">
+	<p>Вы основываемся на ваших ежедневных данных, чтобы подсчитать линию тенденции и рассчитать ваш сброшенный вес. Если пропустить один или 2 дня не приведет к сильным изменениям, но если пропустить слишком много дней, то наши данные не будут правдивы.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Что если я люблю взвешивать себя только раз в неделю?</label>
+  </h1>
+  <div class="content">
+	<p>Извините, раз в неделю это недостаточно для получения точных расчетов о сброшенном весе и вы не поймете, когда ваш темп потери веса меняется.</p>
+
+	<p>Наш совет это доверять тенденции и стараться держать свой вес ниже линии тенденции.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Что показывает шкала ИМТ?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>Стандартная шкала ИМТ показывает значения от 18,5(средний) до 35(легкое ожирение). Помните, это всего лишь директива и здоровый ИМТ может зависеть от страны проживания, возраста, роста и других факторов. Нижний и верхний уровень ИМТ может быть установлен самостоятельно, если вы приобрели полную версию.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Как мне импортировать сохраненный файл?</label>
+  </h1>
+  <div class="content">
+	<p>Полная версия программы может импортировать сохраненные файлы. Самый легкий способ это отправить сохраненные файлы по e-mail на ваш iPhone. Откройте e-mail и нажмите и держите на сохраненный файл, затем выберите опцию "Открыть в Дневник Веса".</p>
+
+	<p>Чтобы импортировать сохраненный файл из Dropbox, откройте Dropbox и щелкните на файл, который хотите импортировать. В режиме просмотра файла щелкните кнопку поделиться и выберите опцию "Открыть в Дневник Веса”"</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">Какой формат у импортируемых файлов?</label>
+  </h1>
+  <div class="content">
+	<p>Мы используем .csv файлы, которые поддерживаются большинством программ. Самый легкий способ это иметь хотя бы одну запись веса и затем использовать опцию резервная копия, чтобы создать файл .csv. котрый можно заполнить. Если вам нужна помощь, пожалуйста, обратитесь к нам. Мы будем рады вам помочь.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q11">
+  <h1 class="handle">
+    <label for="Q11">И это все?</label>
+  </h1>
+  <div class="content">
+	<p>Да. И запомните, это не просто программа для похудения. Это удобно для слежения за своим весом, потому что эта программа поможет вам заметить любые изменения в весе перед тем, как это станет проблемой.</p>
+
+	<p>Если вам нравиться наше приложение, то расскажите друзьям и оставьте нам <a href="itms-apps://itunes.apple.com/app/idAPP_ID">отзыв</a> в App Store</p>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Diario del Peso";
+
+NSUbiquitousContainerName = "Diario del Peso";
+
+NSFaceIDUsageDescription = "Sbloccare il Diario del Peso";
+
+NSHealthShareUsageDescription = "Sincronizzazione con l'applicazione iOS di salute.";
+
+NSHealthUpdateUsageDescription = "Sincronizzazione con l'applicazione iOS di salute.";

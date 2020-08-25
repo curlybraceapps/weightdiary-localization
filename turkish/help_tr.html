@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Nasıl Çalışır</label>
+  </h1>
+  <div class="content">
+	<p>Hergün ağırlığınızı girin ve biz sizin haftalık olarak kilo durumunuzu tahmin edelim ve hedefinize doğru ilerlemenizi gözlemleyin.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Sarı Çizgi Nedir?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>Sarı çizgi sizin trend çizginizdir. Bu çizginin sizin ortalama ağırlığınız olduğunu düşünün. Hergün sizin ağırlığınız artıp azalacaktır ancak bu değişiklikler içtiğiniz sıvıların miktarına bağlıdır.</p>
+
+	<p>Trend çizgisi günlük dalgalı ağırlığınızın ortasından geçer ve ortalama ağırlığınızı gösterir. Eğer çoğu girişiniz bu çizginin altında ise kilo kaybetmeye başlamışsınız demektir.</p>
+
+	<p>Eğer trend çizgisinin üzerinde çok fazla giriş var ise yaptığınız diyeti tekrar düzenlemelisiniz.</p>
+  </div>
+</section>
+
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">Yeşil/Kırmızı oklar neyi ifade eder?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_tr.png" width="192" height="71" /></p>
+
+	<p>Bu oklar size bir bakışta kilonuz çizginin üzerindeyse kırmızı ok, altındaysa Yeşil ok şeklinde görünür.</p>
+
+	<p>Özet görünümündeki giriş, kaç gün süresince çizginin altında ya da üstünde oldugunu gösterir.</p>
+  </div>
+</section>
+
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Trend ve Hedef alanları neyi gösterir?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_tr.png" width="290" height="74" /></p>
+
+	<p>Trend alanı, tahmin edilen kilo kayıp oranını gösterir. Haftalık olarak Kazanılan/Kaybedilen ya da günlük olarak kalori hesabı. Haftalık ve günlük görünümler arasında geçiş yapmak için ekrana tıklayın.</p>
+
+	<p>Hedef alanı size hedefinizi bir ilerleme çubuğuyla ya da tahmini zamanla ya da ne kadar kilo vermeniz gerektiğini gosterir. Bu görünümler arasında geçiş yapmak için ekrana tıklayın. Not: Tahmini zaman sadece kilo kaybettiğiniz zaman gorunebilir.</p>
+
+	<p>Trend ve hedefin son bir kaç günün girişlerinden hesaplanmasından dolayı diyetinizde yapılacak değişiklikler birkaç gün zaman alır.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Neden Hedef alanındaki tahmini zaman, hedef hesaplayıcısından farklı?</label>
+  </h1>
+  <div class="content">
+	<p>Hedef alanı sizin varolan kilo kaybı oranınıza bağlı olarak en son bir kaç girişinizden hesaplanır. Hedef hesaplayıcısı bir diyet planlama aracıdır ve hedef alanındaki istediğiniz oranla eşleşene kadar diyetinizi ayarlamak sizin görevinizdir.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">Hergün tartılmaya ihtiyacım var mı?</label>
+  </h1>
+  <div class="content">
+	<p>Trend çizgisini hesaplamak ve kilo kaybınızı tahmin edebilmek için sizin sizin günlük girişlerinize ihtiyaç duyuyoruz. Buraya bir gün giriş yapmasanız bizim canımız acımaz ama eğer çok fazla gün giriş yapmazsanız tahminleriniz çok isabetli olmaz.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Peki ya ben haftada bir tartılmaktan hoşlanıyorsam?</label>
+  </h1>
+  <div class="content">
+	<p>Kusura bakmayın ama haftada bir yapılan girişler size isabetli tahminler sunabilmek için yeterli olmayacaktır.</p>
+
+	<p>Bizim tavsiyemiz trende güvenin ve girişlerinizin trend çizgisi altında olmasına odaklanın.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Vücut Kitle Endeksi neyi ifade eder?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>Varsayılan VKE 18,5(normal)'den 35(obez)'e kadar gider. Unutmayın, bu değerler;ülkeye, yaşa, boya ve diğer faktörlere bağlı olarak değişiklik gösterebilir. En alt ve En üst seviye VKE'i satın alınmış versiyonlarda ayarlar bölümünden değiştirilebilir.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Kaydedilmiş bir yedek dosyasını nasıl içeri aktarabilirim?</label>
+  </h1>
+  <div class="content">
+	<p>Satın alınmış versiyonda uygulama yedek dosyalarınızı içeri aktarabilir. Bunun en basit yolu yedek dosyanızı IPhone'unuza email göndermektir. Email'i açın ve yedek dosyasının üzerine basılı tutun ve "Günlük Ağırlık ile Aç" seçeneğini seçin.</p>
+
+	<p>Yedek dosyanızı Dropbox'dan içeri aktarmak için Dropbox uygulamasını açın ve içeri aktarmak istediğiniz dosyayı seçin. Dosya görünümünde, sağ altta yer alan Paylaş butonuna tıklayıp "Günlük Ağırlık ile Aç" seçeneğini seçin.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">İçeri aktarılan dosyanın tipi nedir?</label>
+  </h1>
+  <div class="content">
+	<p>Birçok uygulamanın destek vermesi nedeniyle .csv formatını kullanıyoruz. Bunu yapmanın en iyi yolu en az bir giriş yapıp yedekleme özelliğini kullanarak bir .csv dosyası oluşturmaktır. Daha fazla detaya ihtiyaç duyarsanız lütfen bizimle iletişime geçin, size yardımcı olmaktan memnuniyet duyacağız.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q11">
+  <h1 class="handle">
+    <label for="Q11">Hepsi bu kadar mı?</label>
+  </h1>
+  <div class="content">
+	<p>Evet. unutmayın bu sadece bir zayıflamak için bir araç değildir. Bu kilonuzu ayarlamak içindir çünkü kilonuzdaki herhangi bir değişikliği başınıza bela olmadan farketmenizi sağlar.</p>
+
+	<p>Bizler insanlara yardım etmekten son derece keyif alıyoruz bu neden daha fazla sorunuz varsa <a href="mailto:support@curlybrace.co.uk">bizimle iletişime</a> geçmekten çekinmeyin. Eğer uygulamayı beğendiyseniz bir arkadaşınıza da önerin ya da App Store'da <a href="itms-apps://itunes.apple.com/app/idAPP_ID">bir yorum bırakın.</a></p>
+  </div>
+</section>
+
+</body>
+</html>

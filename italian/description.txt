@@ -1,0 +1,30 @@
+Diario di Peso - daily weight tracker
+
+Semplice ed efficace app per il monitoraggio della perdita di peso .
+
+Introduci in modo semplice ogni giorno il tuo peso e lascia che Diario del Peso valuti i tuoi progressi e quanto tempo ti ci vorrà per raggiungere il tuo obiettivo. Non occorre fare ipotesi o conteggi delle calorie.
+
+La linea di andamento attraversa le variazioni giornaliere del tuo peso in modo da sapere subito se sei sulla buona strada. Quando la linea di andamento si inclina verso il basso e la maggior parte delle tue entrate giornaliere sono al di sotto la linea, allora stai perdendo peso. È proprio semplice.
+
+Usa il nostro calcolatore di calorie e di obiettivi per pianificare ulteriormente la tua dieta.
+
+Caratteristiche Principali:
+
+* Mostra il tuo peso, la perdita di peso stimato e l’obiettivo restante
+* Mostra l'IMC (indice di massa corporea)
+* Registra il tuo grasso corporeo (per le bilance che lo supportano) e aggiunge note personalizzate
+* Il nuovo sistema di navigazione permette di saltare rapidamente a qualsiasi dato del peso inserito
+* Il badge sull’icona dell’applicazione nello schermo home ti ricorda di pesarti ogni giorno (opzionale)
+* Il grafico mostra il tuo peso giornaliero e la tua linea di andamento
+* Il diagramma grafico a schermo intero ti permette di esplorare ulteriormente i tuoi dati del peso
+* Il calcolatore di obiettivi ti aiuta a pianificare la tua dieta e ad impostare i tuoi obiettivi giornalieri/settimanali
+* Il calcolatore di calorie ti aiuta a lavorare sul tuo obiettivo calorico giornaliero in base all’età ed ad altri fattori
+* La vista globale mostra in un colpo d’occhio il tuo progresso complessivo
+* Il registro giornaliero mostra le singole voci del peso e le eventuali note personalizzate che hai aggiunto
+* Aggiungi una password opzionale per mantenere private le tue registrazioni del peso
+* Scegli le unità di misura, libbre, kilogrammi o Stones (UK), calorie o kilojoule
+* Opzione tema scuro
+* Funzionalità completa di importazione ed esportazione dei dati
+* Integrazione com l'app Salute iOS
+* Sincronizzazione con le bilance WiFi più diffuse
+* Guida e supporto disponibile all’interno dell’app

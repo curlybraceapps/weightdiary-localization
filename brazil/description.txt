@@ -1,0 +1,30 @@
+Peso Diário - daily weight tracker
+
+Controle seu peso e planeje seu regime de forma simples e eficaz.
+
+Abra o aplicativo todos os dias para registrar seu peso e deixe que o Peso Diário controle seu progresso e calcule quanto tempo você irá demorar para atingir seu objetivo. Não é necessário que digite quantas calorias consumiu.
+
+Nossa linha de tendência permite que você analise seus altos e baixos, para que possa avaliar seu progresso. Quanto mais negativo for o declive da sua linha, mais peso você estará perdendo. Simples assim.
+
+Use nossa calculadora de calorias e de realização de objetivos para planejar seu regime.
+
+Recursos:
+
+* Apresenta seu peso, sua perda de peso e quanto peso ainda tem que perder
+* Calcula seu IMC (índice de massa corporal)
+* Salva a sua percentagem de massa gorda e permite redigir notas 
+* Permite deslizar para navegar no calendário e buscar qualquer registro
+* Mostra durante quantos dias você não registrou seu peso, através do emblema vermelho por cima do ícone do aplicativo, na tela inicial (opcional)
+* Permite analisar a linha de tendência e o progresso dos registros, enquanto observa seus gráficos
+* Apresenta os gráficos em tela inteira, que torna mais fácil a análise dos gráficos 
+* Planeja seu regime, partindo da calculadora de realização de objetivos
+* Recomenda a intensidade de exercício físico que você deve fazer, para que consiga consumir as calorias recomendadas para sua idade e estrutura
+* Permite visualizar seu progresso de uma forma geral
+* Permite visualizar todos os seus registros individualmente e as respetivas notas
+* Oferece várias unidades: libras, quilogramas ou pedras; calorias ou quilojoules
+* Protege todos os seus dados com um código escolhido por você (opcional)
+* Permite alterar o aspeto do aplicativo, utilizando o tema escuro disponível
+* Importa e exporta todos os seus registros e dados que tenha salvo anteriormente
+* Sincronização com o aplicativo Saúde do iOS
+* Sincroniza seus dados com as balanças que possuem Wi-Fi
+* Esclarece suas perguntas mais frequentes através do menu de ajuda do aplicativo

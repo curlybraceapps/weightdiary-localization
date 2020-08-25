@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Mein Gewicht";
+
+NSUbiquitousContainerName = "Mein Gewicht";
+
+NSFaceIDUsageDescription = "Mein Gewicht entsperren";
+
+NSHealthShareUsageDescription = "Synchronisierung mit dem iOS Health App.";
+
+NSHealthUpdateUsageDescription = "Synchronisierung mit dem iOS Health App.";

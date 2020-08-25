@@ -1,0 +1,30 @@
+Mein Gewicht - daily weight tracker
+
+Einfache und effektive Nachverfolgung Ihres Gewichtsverlustes.
+
+Erfassen Sie einfach jeden Tag Ihr Gewicht und Mein Gewicht zeigt Ihnen Ihren Gewichtsverlauf und wann Sie Ihr Wunschgewicht erreichen. Kein Rätselraten oder Kalorienzählen mehr notwendig.
+
+Unsere Trendlinie zeigt Ihnen auch bei den täglichen Gewichtsschwankungen sofort, ob Sie auf dem richtigen Weg sind: solange die Trendlinie nach unten zeigt und die Mehrzahl der Tageseinträge unterhalb dieser Linie liegen verlieren Sie Gewicht. So einfach ist das.
+
+Für Ihre Ernährungsplanung bieten wir Ihnen außerdem einen  Ziel- und Kalorienrechner an.
+
+Hauptfunktionen:
+ 
+* Ihr Gewicht, erwarteter Gewichtsverlust und Restdauer bis zum voraussichtlichen Erreichen Ihres Wunschgewichtes auf einen Blick
+* grafische BMI-Darstellung (Body Mass Index)
+* zeichnen Sie Ihren Körperfettanteil auf (für Waagen, die diese Funktion unterstützen) und fügen Sie persönliche Anmerkungen hinzu
+* der Datum-Schieberegler sowie der Kalender erlauben den Schnellzugriff auf jeden Gewichtseintrag
+* ein Kennzeichensymbol auf dem Home Screen erinnert Sie auf Wunsch an das tägliche Wiegen
+* Diagrammdarstellung Ihrer täglichen Gewichtseinträge sowie der Trendlinie
+* Vollbild-Diagramm im Querformat für detaillierte Darstellung Ihrer Gewichtsdaten 
+* Zielrechner hilft bei der Ernährungsplanung mit täglichen/wöchentlichen Zielen
+* Kalorienrechner zur Ermittlung des persönlichen täglichen Kalorienbedarfs basierend auf Alter und weiterer Faktoren
+* Darstellung des Verlaufs als Zusammenfassung auf einen Blick
+* Übersichtliche Auflistung der täglichen Gewichtsdaten und Notizen
+* Passwortschutz für Ihre Daten optional
+* Mögliche Einheiten: Kilogramm, Pfund, Stone. Kilokalorien (kcal) oder Kilojoules (kJ) 
+* dunkles Theme optional
+* Voller Datenimport und -export möglich
+* Unterstützung der iOS Health App
+* Synchronisiert sich mit den gängigen WLAN-Waagen
+* Umfassende Hilfe und Support in der App verfügbar

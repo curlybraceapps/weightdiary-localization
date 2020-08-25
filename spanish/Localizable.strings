@@ -1,0 +1,720 @@
+/* wifi scale */
+"%@ WiFi Scale" = "Báscula WiFi %@";
+
+/* info message */
+"%@. Please use our web support page." = "%@. Por favor, utilice nuestra web de soporte.";
+
+/* X centimetres */
+"%ld cm" = "%ld cm";
+
+/* 1 day */
+"%ld day" = "%ld día";
+
+/* 3 days */
+"%ld days" = "%ld días";
+
+/* 1 month */
+"%ld%@ month" = "%ld%@ mes";
+
+/* 3 months */
+"%ld%@ months" = "%ld%@ meses";
+
+/* 1 week */
+"%ld%@ week" = "%ld%@ semana";
+
+/* 3 weeks */
+"%ld%@ weeks" = "%ld%@ semanas";
+
+/* 1 year */
+"%ld%@ year" = "%ld%@ año";
+
+/* 3 years */
+"%ld%@ years" = "%ld%@ años";
+
+/* per week (e.g. kg/week) */
+"/week" = "/semana";
+
+/* weight loss for previous 2 weeks */
+"1 Month" = "1 Mes";
+
+/* weight loss for previous week */
+"1 Week" = "1 Semana";
+
+/* weight loss for previous 1 year */
+"1 Year" = "1 Año";
+
+/* exercise frequency */
+"1-3 days/week" = "1-3 días/semana";
+
+/* 1 month shortform (must be two characters) */
+"1m" = "1m";
+
+/* 1 week shortform (must be two characters) */
+"1w" = "1s";
+
+/* 1 year shortform (must be two characters) */
+"1y" = "1a";
+
+/* weight loss for previous 2 weeks */
+"2 Weeks" = "2 Semanas";
+
+/* exercise frequency */
+"2+ daily" = "2+ diaria";
+
+/* 2 weeks shortform (must be two characters) */
+"2w" = "2s";
+
+/* 2 years shortform (must be two characters) */
+"2y" = "2a";
+
+/* weight loss for previous 3 months */
+"3 Months" = "3 Meses";
+
+/* exercise frequency */
+"3-5 days/week" = "3-5 días/semana";
+
+/* 3 months shortform (must be two characters) */
+"3m" = "3m";
+
+/* weight loss for previous 6 months */
+"6 Months" = "6 Meses";
+
+/* exercise frequency */
+"6-7 days/week" = "6-7 días/semana";
+
+/* 6 months shortform (must be two characters) */
+"6m" = "6m";
+
+/* about the App/information */
+"About" = "Acerca de";
+
+/* exercise level */
+"active" = "activo";
+
+/* exercise frequency */
+"activity level" = "nivel de actividad";
+
+/* notes feature */
+"Add custom notes to your weight entries" = "Añadir notas personalizadas";
+
+/* age */
+"age" = "edad";
+
+/* graph all data (must be short) */
+"all" = "todo";
+
+/* app store */
+"App Store" = "App Store";
+
+/* theme */
+"Appearance" = "Apariencia";
+
+/* Apple health app */
+"Apple Health" = "App Salud";
+
+/* info message */
+"At least one weight entry is required to use the calorie calculator." = "Se requiere al menos una entrada de peso para utilizar la calculadora de calorías.";
+
+/* info message */
+"At least one weight entry is required to use the goal calculator." = "Se requiere al menos una entrada de peso para utilizar la calculadora de objetivos.";
+
+/* automatic */
+"Auto" = "Automát.";
+
+/* automatic backup */
+"Auto Backup" = "Copia de seguridad automát.";
+
+/* enable backup file sync */
+"Auto-load latest backup file to sync data between multiple iOS devices." = "Sincronizar con el último archivo de respaldo.";
+
+/* backup data */
+"Backup" = "Copia de seguridad";
+
+/* backup file location */
+"Backup files are located in the Weight Diary folder in iCloud Drive." = "";
+
+/* backup filename */
+"Backup.csv" = "CopiaDeSeguridad.csv";
+
+/* backup filename for lite version */
+"BackupLite.csv" = "CopiaDeSeguridadLite.csv";
+
+/* app icon badge */
+"Badge" = "Globos";
+
+/* birth date */
+"Birthday" = "Cumpleaños";
+
+/* blue theme */
+"Blue" = "Azul";
+
+/* body mass index shortform */
+"bmi" = "imc";
+
+/* min/max BMI for display */
+"BMI Range" = "Rango IMC";
+
+/* body mass index */
+"Body Mass Index" = "Índice de Masa Corporal";
+
+/* by.. Oct 10, 2012 (text box label) */
+"by" = "desde";
+
+/* by adding... 500 cal/day (text box label) */
+"by adding" = "añadiendo";
+
+/* by cutting... 500 cal/day (text box label) */
+"by cutting" = "quitando";
+
+/* calories/day shortform */
+"cal/day" = "cal/día";
+
+/* daily calorie requirements calculator */
+"Calorie Calculator" = "Calculador de calorías";
+
+/* calories */
+"calories" = "calorías";
+
+/* Cancel button */
+"Cancel" = "Cancelar";
+
+/* change past entry button */
+"Change Past Entry" = "Cambiar última entrada";
+
+/* change past (weight) entry? */
+"Change past weight entry?" = "¿Quiere cambiar la última entrada de peso?";
+
+/* message explaining starting weight setting */
+"Choose a starting date for weight loss/gain and goal calculations.\n\nTip: You can drag in the graph view above to set your starting weight." = "";
+
+/* message explaining start week on setting */
+"Choose the day that the week starts on in the drop-down calendar." = "";
+
+/* centimetres */
+"cm" = "cm";
+
+/* color theme */
+"Color Theme" = "Tema de color";
+
+/* commonly asked questions */
+"Common Questions" = "Preguntas comunes";
+
+/* message explaining how the calorie calculator works */
+"Compute your personal daily calorie requirements." = "Calcule sus necesidades calóricas diarias personales.";
+
+/* no translation required */
+"CurlyBrace.co.uk" = "CurlyBrace.co.uk";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Current Trend" = "Tendencia actual";
+
+/* custom */
+"Custom" = "Personalizado";
+
+/* total daily calorie requirements */
+"daily calorie target" = "calorías diarias";
+
+/* list of all weight entries ordered by date */
+"Daily Log" = "Resumen Diario";
+
+/* dark theme */
+"Dark" = "Oscuro";
+
+/* dark theme */
+"Dark Theme" = "Tema oscuro";
+
+/* data section */
+"Data" = "Datos";
+
+/* App icon badge showing number of days since last weigh-in */
+"Days Missed Badge" = "Notificación de días perdidos";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .0" = "Decimal  ,0";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .00" = "Decimal  ,00";
+
+/* delete/remove button */
+"Delete" = "Borrar";
+
+/* delete file */
+"Delete %@?" = "¿Eliminar %@?";
+
+/* delete 10 weight entries? (confirmation) */
+"Delete %ld weight entries?" = "¿Eliminar %ld entradas de peso?";
+
+/* delete 1 weight entry? (confirmation) */
+"Delete %ld weight entry?" = "¿Eliminar %ld entrada de peso?";
+
+/* delete all */
+"Delete All Entries" = "Eliminar todas las entradas";
+
+/* delete confirmation dialog */
+"Delete this weight entry?" = "¿Eliminar esta entrada de peso?";
+
+/* deleting */
+"Deleting…" = "Borrar…";
+
+/* discard changes */
+"Discard Changes" = "Descartar cambios";
+
+/* Done button (finished) */
+"Done" = "Hecho";
+
+/* earliest */
+"Earliest" = "Primero";
+
+/* Edit button */
+"Edit" = "Edición";
+
+/* email */
+"Email" = "Correo";
+
+/* food energy (calories or kilojoules) */
+"Energy" = "Energía";
+
+/* 4 digit passcode/password */
+"Enter Passcode" = "Introduce Contraseña";
+
+/* export data */
+"Export" = "Exportar";
+
+/* fat shortform */
+"fat" = "grasa";
+
+/* body fat percentage */
+"Fat %" = "grasa %";
+
+/* No comment provided by engineer. */
+"Fatal Error. Database is corrupt or was created by a newer version" = "Error fatal. No se puede cargar la base de datos";
+
+/* gender */
+"female" = "mujer";
+
+/* blue theme */
+"Fifty Shades of Blue" = "Cincuenta sombras de Azul";
+
+/* no translation required */
+"Fitbit" = "Fitbit";
+
+/* Weight quarter fractions e.g. 140 1/2 */
+"Fractional  ¼ ½ ¾" = "Fraccional  ¼ ½ ¾";
+
+/* fullscreen graph feature */
+"Full-screen multi-touch graph view" = "Gráfica en vista apaisada";
+
+/* gender/age */
+"Gender & Age" = "Sexo / Edad";
+
+/* gender/birthday */
+"Gender & Birthday" = "Sexo / Cumpleaños";
+
+/* weight loss goal/target/objective */
+"Goal" = "Objetivo";
+
+/* calculate weight loss targets based on your goal */
+"Goal Calculator" = "Calculador de objetivo";
+
+/* target weight */
+"Goal Weight" = "Peso deseado";
+
+/* heaviest recorded weight */
+"Heaviest" = "Mayor peso";
+
+/* your height */
+"Height" = "Altura";
+
+/* your height */
+"height" = "altura";
+
+/* help title */
+"Help" = "Ayuda";
+
+/* no translation required */
+"help_en" = "help_es";
+
+/* iCloud Drive */
+"iCloud Drive" = "iCloud Drive";
+
+/* import data */
+"Import" = "Importar";
+
+/* import file */
+"Import %@?" = "¿Importar %@?";
+
+/* No comment provided by engineer. */
+"Import Error" = "Error de importación";
+
+/* message to transfer data */
+"Import existing data from Weight Diary Lite?" = "¿Desea importar sus datos existentes de Peso Diario Lite?";
+
+/* message to transfer data */
+"Import existing data from your latest backup?" = "¿Desea importar sus datos existentes de su última copia de seguridad?";
+
+/* No comment provided by engineer. */
+"Import failed" = "Importación fallida";
+
+/* import message */
+"Importing…" = "Importando…";
+
+/* inches */
+"in" = "pulgadas";
+
+/* displayed when user types invalid password */
+"Incorrect passcode. Try again." = "Contraseña incorrecta. Prueba de nuevo.";
+
+/* exercise level */
+"intense" = "intenso";
+
+/* delete entries older than X months */
+"Keep Last %ld Months" = "Mantener Últimos %ld Meses";
+
+/* delete entries older than 1 month */
+"Keep Last 1 Month" = "Mantener el Último Mes";
+
+/* kilogram shortform */
+"kg" = "kg";
+
+/* kilograms (weight) */
+"Kilograms" = "Kilogramos";
+
+/* kilograms (weight) */
+"kilograms" = "kilogramos";
+
+/* kilojoules (food energy) */
+"kilojoules" = "kilojulios";
+
+/* kilojoules per day shortform */
+"kJ/day" = "kJ/día";
+
+/* last monday, tuesday, etc. (must work for all weekdays) */
+"Last %@" = "Último %@";
+
+/* sync latest iPad backup */
+"Latest iPad Backup" = "Última copia de seguridad";
+
+/* sync latest iPhone backup */
+"Latest iPhone Backup" = "Última copia de seguridad";
+
+/* pound shortform */
+"lb" = "lb";
+
+/* light theme */
+"Light" = "Claro";
+
+/* exercise level */
+"light" = "Ligero";
+
+/* lightest recorded weight */
+"Lightest" = "Menor peso";
+
+/* Link button */
+"Link Account" = "Vincular Cuenta";
+
+/* link wifi scale */
+"Link your %@ account to automatically import new weight data." = "Vincular tu cuenta %@ para importar automáticamente los nuevos datos de peso.";
+
+/* loading message */
+"Loading…" = "Cargando…";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Longest Trend" = "Tendencia más larga";
+
+/* gender */
+"male" = "hombre";
+
+/* exercise level */
+"moderate" = "moderado";
+
+/* Monday */
+"Monday" = "Lunes";
+
+/* morbidly obese BMI */
+"morbidly obese" = "obesidad mórbida";
+
+/* more options */
+"More…" = "Más…";
+
+/* fullscreen graph feature (iPad) */
+"Multi-touch graph view" = "Gráfica interactivo";
+
+/* n/a - not applicable */
+"n/a" = "n/a";
+
+/* enter your new passcode/password */
+"New passcode" = "Nueva contraseña";
+
+/* Next button */
+"Next" = "Siguiente";
+
+/* no ads feature (iPad) */
+"No ads" = "Sin anuncios";
+
+/* no ads feature */
+"No ads. More space to see your data" = "Sin anuncios. Más espacio para ver sus datos";
+
+/* No files found */
+"NO BACKUP FILES FOUND.\n\n" = "NO SE HA ENCONTRADO NINGÚN ARCHIVO.\n\n";
+
+/* nothing to delete */
+"No Entries to Delete" = "No hay entradas que borrar";
+
+/* exercise frequency */
+"no exercise" = "ningún ejercicio";
+
+/* nothing */
+"none" = "nada";
+
+/* normal BMI */
+"normal" = "normal";
+
+/* not available */
+"Not Available" = "No disponible";
+
+/* goal/height not defined */
+"not set" = "no establecido";
+
+/* Apple health settings */
+"Note: Access permissions are located in the Health app under Sources." = "";
+
+/* notes */
+"Notes" = "Notas";
+
+/* obese BMI */
+"obese" = "obesidad";
+
+/* off */
+"Off" = "No";
+
+/* OK button - not always translated */
+"OK" = "OK";
+
+/* old color themes */
+"Older Themes" = "Temas de color de edad";
+
+/* on */
+"On" = "Sí";
+
+/* Weight ounces 140lb 12oz */
+"Ounces  0…15" = "Onzas  0…15";
+
+/* overweight BMI */
+"overweight" = "sobrepeso";
+
+/* ounce shortform */
+"oz" = "oz";
+
+/* 4 digit passcode/password */
+"Passcode" = "Contraseña";
+
+/* user did not correctly verify their new passcode */
+"Passcodes do not match. Try again." = "Las contraseñas no coinciden. Inténtelo de nuevo.";
+
+/* message explaining how the goal calculator works */
+"Plan your diet by date, weekly change or calorie reduction. Changing any value automatically updates the other ones and calculates the weekly and daily targets you need to achieve your goal." = "Planifique su dieta por fecha, cambio semanal o reducción de calorías. Al cambiar cualquier valor se actualizan automáticamente los demás y calcula los objetivos semanales y diarios que necesita para alcanzar su meta.";
+
+/* iCloud Drive required message */
+"Please enable iCloud Drive to use this feature." = "Activar iCloud Drive para usar esta función.";
+
+/* No comment provided by engineer. */
+"Please ensure Weight Diary has sufficient permissions to use Apple Health.\n\nLook in the Health app under Sources for details." = "";
+
+/* link to app store for rating/reviewing the app */
+"Please Rate %@" = "Valora Esta Aplicación";
+
+/* disable wifi scale message */
+"Please unlink your current WiFi scale before linking a new one." = "Por favor, desvincule su báscula WiFi actual antes de enlazar una nueva.";
+
+/* pounds (imperial weight unit) */
+"pounds" = "libras";
+
+/* pounds (imperial weight unit) */
+"Pounds" = "Libras";
+
+/* reset/clear data */
+"Reset" = "Reinicializar";
+
+/* restore data */
+"Restore" = "Restaurar";
+
+/* rotate message when big graph empty */
+"rotate device to enter weight" = "gira el dispositivo para introducir el peso";
+
+/* Save button */
+"Save" = "Guardar";
+
+/* save changes */
+"Save Changes" = "Guardar cambios";
+
+/* send email */
+"Send Feedback" = "Contáctenos";
+
+/* Application settings */
+"Settings" = "Configuración";
+
+/* Settings App */
+"Settings App" = "Configuración";
+
+/* finished setup */
+"Setup Complete" = "Configuración Completada";
+
+/* severely obese BMI */
+"severely obese" = "obesidad grave";
+
+/* gender */
+"sex" = "sexo";
+
+/* show BMI display on the main screen */
+"Show BMI" = "Mostrar IMC";
+
+/* app icon badge description */
+"Show number of days since your last weight entry on the app icon." = "";
+
+/* stones shortform */
+"st" = "st";
+
+/* day to start week on in calendar */
+"Start Week On" = "La Semana Empieza en";
+
+/* initial weight */
+"Starting Weight" = "Peso Inicial";
+
+/* UK weight measurement (no translation required?) */
+"Stones" = "Stones (UK)";
+
+/* UK weight measurement (translation required?) */
+"stones" = "stones (UK)";
+
+/* weight fractional units */
+"Sub-units" = "Sub-unidades";
+
+/* summary (title for progress/weight loss section) */
+"Summary" = "Resumen";
+
+/* Sunday */
+"Sunday" = "Domingo";
+
+/* sync section */
+"Sync" = "Sincronizar";
+
+/* Apple health sync */
+"Sync weight data to the iOS Health app." = "¿Habilita la sincronización del los datos del peso con la aplicación de iOS salud?";
+
+/* syncing feature */
+"Sync with Apple Health and popular WiFi scales from Fitbit and Withings" = "Sincronizar con la aplicación de la salud y las báscula Fitbit/Withings";
+
+/* syncing feature (iPad) */
+"Sync with popular WiFi scales from Fitbit and Withings" = "Sincronizar con las báscula de Fitbit/Withings";
+
+/* import message */
+"Syncing…" = "Sincronizando…";
+
+/* system setting */
+"System" = "Sistema";
+
+/* rating appeal */
+"This version has %@ ratings. :-)" = "Esta versión tiene %@ puntuaciones. 😀";
+
+/* rating appeal */
+"This version has no ratings. :-(" = "Esta versión no tiene puntuaciones. 🙁";
+
+/* rating appeal */
+"This version has only %@ rating. :-(" = "Esta versión tiene sólo %@ puntuación. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-(" = "Esta versión tiene sólo %@ puntuaciones. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-|" = "Esta versión tiene sólo %@ puntuaciones. 😐";
+
+/* badge alert */
+"To use badges you need to enable notifications for %@ in the Settings app." = "Para utilizar esta función, primero debe habilitar las notificaciones en la aplicación Ajustes.";
+
+/* to weigh... 70 kg (text box label) */
+"to weigh" = "para pesar";
+
+/* current day */
+"today" = "hoy";
+
+/* total weight gain to date */
+"Total Gain" = "Total Ganado";
+
+/* total weight loss to date */
+"Total Loss" = "Total Perdido";
+
+/* weight change direction (up/down) */
+"Trend" = "Tendencia";
+
+/* link wifi scale error */
+"Unable to connect to %@" = "No se puede conectar a %@";
+
+/* unable to send email */
+"Unable to send email" = "No se puede enviar el email";
+
+/* underweight BMI */
+"underweight" = "delgado";
+
+/* units (weight/energy) */
+"Units" = "Unidades";
+
+/* Unlink button */
+"Unlink" = "Desvincular";
+
+/* unlink wifi scale */
+"Unlink %@ (WiFi) Scale?" = "¿Desvincular la báscula %@ (WiFi)?";
+
+/* touch id message */
+"Unlock Weight Diary" = "Desbloquear Peso Diario";
+
+/* upgrade to paid version */
+"Upgrade" = "Actualizar";
+
+/* upgrade */
+"Upgrade to the full version" = "Actualizar a la versión completa";
+
+/* verify the new passcode message */
+"Verify new passcode" = "Verificar nueva contraseña";
+
+/* copyright message */
+"Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)" = "Versión %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nTodos los Derechos Reservados.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)";
+
+/* your weight */
+"weight" = "peso";
+
+/* your weight */
+"Weight" = "Peso";
+
+/* translated app name */
+"Weight Diary" = "Peso Diario";
+
+/* translated app name for lite version */
+"Weight Diary Lite" = "Peso Diario Lite";
+
+/* weight loss */
+"weight loss" = "peso perdido";
+
+/* import/export filename */
+"WeightDiary.csv" = "PesoDiario.csv";
+
+/* import/export filename for lite version */
+"WeightDiaryLite.csv" = "PesoDiarioLite.csv";
+
+/* compliment */
+"Well Done!" = "¡Bravo!";
+
+/* no translation required */
+"Withings" = "Withings";
+
+/* welcome message */
+"You are now ready to record your first weight entry." = "";
+
+/* you must gain... 1kg/week (text box label) */
+"you must gain" = "debe ganar";
+
+/* you must lose... 1kg/week (text box label) */
+"you must lose" = "debe perder";
+
+/* your height */
+"Your Height" = "Altura";
+

@@ -1,0 +1,30 @@
+Journal Poids - daily weight tracker
+
+Suivi de perte de poids simple et efficace.
+
+Entrez simplement votre poids quotidien et laissez le Journal de poids estimer vos progrès et le temps qu'il faudra pour atteindre votre objectif. Pas de devinettes et aucun besoin de compter les calories.
+
+Notre ligne de tendance va au-delà de vos fluctuations de poids quotidiennes donc vous savez instantanément si vous êtes sur la bonne voie. Tant que la ligne de tendance est inclinée vers le bas et que la plupart de vos entrées quotidiennes sont en dessous de la ligne, alors vous perdez du poids. C'est aussi simple que cela.
+
+Utilisez nos calculateurs d'objectif et de calories pour planifier davantage votre alimentation.
+
+Fonctionnalités principales: 
+
+* Voir d'un coup d'oeil votre poids, votre perte de poids estimée et votre objectif actuel de perte de poids
+* Affichage visuel de votre IMC (indice de masse corporelle)
+* Enregistrer le pourcentage de votre masse de graisse corporelle (si vos balances indiquent masse graisseuse) et ajouter des notes personnalisées
+* Le nouveau curseur de date et le calendrier vous permettent de passer rapidement à une entrée de poids particulière
+* La pastille de l'App sur l'écran d'accueil vous rappelle de vous peser chaque jour (facultatif)
+* L'affichage graphique présente votre poids quotidien et la ligne de tendance
+* L'affichage graphique plein écran en mode paysage vous permet d'explorer davantage vos données de poids
+* Le calculateur d'objectif vous aide à planifier votre alimentation et à fixer vos objectifs quotidiens/hebdomadaires
+* Le calculateur de calories vous permet de déterminer vos besoins caloriques quotidiens en fonction de votre âge et d'autres facteurs
+* La vue Résumé montre en un coup d'oeil vos progrès 
+* La vue Journal affiche vos entrées de poids individuelles et des notes personnalisées que vous avez ajoutées
+* Ajouter un mot de passe facultatif pour préserver la confidentialité de vos entrées de poids 
+* Sélectionner vos unités: livres, kilogrammes ou stones (UK), calories ou kilojoules 
+* Option de thème foncé
+* Facilité d'importer et d'exporter toutes les données
+* Intégration avec l'app Santé iOS
+* Compatibilité avec les balances Wifi populaires
+* Fonction complète d'aide et de soutien disponible dans l'App

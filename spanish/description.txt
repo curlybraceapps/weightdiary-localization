@@ -1,0 +1,30 @@
+Peso Diario - daily weight tracker
+
+Simple y efectivo seguimiento de pérdida de peso.
+
+Simplemente introduce diariamente el peso, que peso estimo perderás y cuánto tiempo tardarás en alcanzar tu meta. No requiere un seguimiento de calorías.
+
+Nuestra línea temporal muestra las fluctuaciones diarias de su peso así sabes instantáneamente si estás en buen camino, siempre y cuando la línea temporal se encuentre en pendiente hacia abajo y la mayoría de las entradas diarias se encuentren por debajo de la línea entonces significa que está perdiendo peso. Así de simple.
+
+Utilice nuestro objetivo y plan de cálculo de calorías para seguir su dieta.
+
+Características principales:
+
+* Mostar su peso, peso perdido estimado y ver el tiempo restante para completar el objetivo
+* Ver el IMC(Índice de Masa Corporal)
+* Registra tu grasa corporal (para las básculas que lo soportan) y añade notas personalizadas
+* Nuestra nueva barra de fecha le permitirá saltar rápidamente a cualquier entrada de peso registrada
+* Notificación (badge) en la pantalla de inicio que le recuerda que debe pesarse cada día (opcional)
+* Gráfica que muestra su peso diario y su tendencia en el tiempo
+* La pantalla completa en modo paisaje le permite explorar mejor los datos de su peso
+* Cálculo de su meta que le ayuda a planificar su dieta y establecer sus metas diarias/semanales
+* El cálculo de calorías le ayuda a trabajar fuera de su objetivo final de calorías diarias en función de su edad y otros factores.
+* Vista resumen que muestra el progreso general de un vistazo.
+* El historial le muestra de forma individual sus entradas de peso y las notas personalizadas que haya añadido.
+* Añadir una contraseña opcional para mantener privadas sus entradas de peso.
+* Elige tus unidades. Libras, kilogramos o stones. Calorías o Kilojulios.
+* Opción de tema oscuro.
+* Posibilidad de exportar y importar sus datos completamente.
+* Integración con la aplicación Salud de iOS
+* Sincronización con báscula WiFi.
+* Ayuda y soporte completo en la aplicación.

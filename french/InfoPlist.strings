@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Journal Poids";
+
+NSUbiquitousContainerName = "Journal Poids";
+
+NSFaceIDUsageDescription = "Déverrouiller Journal Poids";
+
+NSHealthShareUsageDescription = "Synchronisation avec l’app Santé iOS.";
+
+NSHealthUpdateUsageDescription = "Synchronisation avec l’app Santé iOS.";

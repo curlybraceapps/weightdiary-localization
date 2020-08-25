@@ -1,0 +1,30 @@
+Vægt Dagbog - daily weight tracker
+
+Simpel og effektiv registrering af vægt tab.
+
+Indtast din daglige vægt og lad Weight Diary vurdere dit fremskridt oghvor lang tid det vil tage at nå dit mål uden at behøve tælle kalorier.
+
+Vores information om daglige udsving og udvikling af din vægt over tid gør at du ved om du er på rette vej. Meget enkelt at bruge og følge!
+
+Brug vores mål og kalorie tæller til at planlægge og følge din diæt.
+
+Funktioner: 
+
+* Viser din vægt, anslået vægttab og hvad resterer for at nå dit mål.
+* Visuel BMI (body mass index) visning.
+* Registrer din fedt procent (vha. vægte som supporterer dette) og tilføj noter.
+* Vores nye dato vælger og kalender lader dig let skifte til enhver vægt indtastning. 
+* App etiket på hjemmeskærmen påminder dig om at veje dig dagligt.
+* Vægt og udviklings graf.
+* Fuld-skærm graf lader dig yderligere udforske dine data.
+* Mål beregner hjælper dig med at planlægge din kost og sætte dine daglige/ugentlige mål.
+* Kalorie beregner hjælper dig med at udarbejde dit daglige kalorie mål baseret på alder og andre faktorer.
+* Oversigts visning viser dit samlede fremskridt.
+* Log visning med individuelle vægt indtastninger med egne noter du har tilføjet.
+* Tilføj eventuelt en adgangskode til at holde dine indtastninger private.
+* Vælg dine enheder. Pund, Kilo, Kalorier Kilojoules osv.
+* Mulighed for at vælge mørk tema.
+* Data importering og eksportering.
+* iOS Health App Integration
+* Synkroniser med Wifi vægte.
+* Omfattende hjælp i App'en.

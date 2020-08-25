@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Comment ça fonctionne?</label>
+  </h1>
+  <div class="content">
+	<p>Entrez votre poids chaque jour et l’app évaluera votre perte de poids hebdomadaire et vous pourrez suivre votre progression vers votre objectif.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Que signifie la ligne jaune?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>La ligne jaune est votre ligne de tendance. Pensez-y comme votre poids moyen. Chaque jour, votre poids fluctuera à la hausse ou à la baisse, mais ceci est attribuable principalement à des changements dans la quantité d'eau et de solides dans votre corps.</p>
+
+	<p>La ligne de tendance va au-delà des fluctuations quotidiennes et vous montre ce que votre poids sous-jacent est en train de faire. Si la plupart de vos entrées quotidiennes sont en dessous de cette ligne et que la ligne soit pointée vers le bas, alors ce sont autant de signes que vous perdez du poids.</p>
+
+	<p>Si vous obtenez un trop grand nombre d'entrées qui sont au-dessus de la ligne de tendance, alors vous devrez peut-être ajuster votre alimentation pour vous remettre sur les rails.</p>
+  </div>
+</section>
+
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">A quoi correspondent les flèches vertes/rouges?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_fr.png" width="192" height="71" /></p>
+
+	<p>Ces flèches vous indiquent immédiatement si en un jour donné votre poids était au-dessus ou au-dessous de la ligne de tendance.</p>
+
+	<p>Le champ indiquant la tendance actuelle dans la vue Résumé indique le nombre de jours d'affilée que vous avez été au-dessus ou au-dessous de la ligne de tendance.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Que indiquent les champs Tendance et Objectif?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_fr.png" width="290" height="74" /></p>
+
+	<p>Le champ Tendance est le taux estimé de votre perte de poids. Cela peut être affiché comme une perte/gain hebdomadaire ou comme un déficit/excès calorique quotidien. Appuyez sur le champ pour basculer entre la vue hebdomadaire et quotidienne.</p>
+
+	<p>Le champ Objectif montre votre objectif en tant que barre de progression ou une estimation du temps ou bien une indication de combien de poids il vous reste à perdre. Appuyez sur le champ pour basculer entre ces vues. Remarque: L'estimation du temps sera affichée seulement lorsque vous perdez du poids.</p>
+
+	<p>Puisque la tendance et l'objectif sont calculés au moyen de vos dernières entrées de poids, il faudra attendre quelques jours pour que des changements alimentaires se manifestent pleinement.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Pourquoi l'estimation du temps dans le champ Objectif est-elle différente de celle du calculateur de l’objectif?</label>
+  </h1>
+  <div class="content">
+	<p>Le champ Objectif est basé sur votre taux actuel de perte de poids, tel que calculé au moyen de vos dernières entrées de poids. Le calculateur de l’objectif est un outil de planification de l'alimentation et il vous revient d'ajuster votre alimentation jusqu'à ce que le champ d’objectif corresponde à votre taux désiré de perte de poids.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">Dois-je me peser tous les jours?</label>
+  </h1>
+  <div class="content">
+	<p>Nous comptons sur vos pesées quotidiennes pour calculer la ligne de tendance et pour estimer votre perte de poids. Si vous sautez une journée ici et là, il n’y aura pas de problème, mais si vous manquez trop de jours, nos estimations ne seront pas aussi précises.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Que faire si je veux me peser une fois par semaine?</label>
+  </h1>
+  <div class="content">
+	<p>Désolé, une fois par semaine ne suffit pas pour obtenir des estimations précises de perte de poids et vous ne serez pas en mesure de remarquer des changements dans votre perte de poids.</p>
+
+	<p>Nous vous conseillons de vous fier à la tendance et de vous concentrer uniquement à maintenir vos entrées quotidiennes au-dessous de la ligne de tendance.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Que démontre l'échelle IMC?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>L'échelle IMC va de 18.5 (normal) sur la gauche à 35 (obèse) sur la droite. Rappelez-vous que ce sont seulement des lignes directives et les gammes d’IMC pour un poids peuvent varier selon le pays, l'âge, la taille et d'autres facteurs. La gamme IMC inférieure et supérieure peut être personnalisée dans les réglages si vous avez la version payante de notre app.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Quel est le format pour importer des données?</label>
+  </h1>
+  <div class="content">
+	<p>La version payante de l'app vous permet d’importer des fichiers CSV qui sont pris en charge par la plupart des tableurs.  La meilleure façon d’y parvenir  est d'avoir au moins une entrée de poids et puis d’utiliser la fonction de sauvegarde pour générer un fichier CSV que vous pouvez compléter. Si vous avez besoin de plus de détails, veuillez nous contacter et nous serons heureux de vous aider.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">C’est tout?</label>
+  </h1>
+  <div class="content">
+	<p>Oui. Rappelez-vous que cette application n'est pas seulement un outil pour perdre du poids. Elle est aussi bonne pour maintenir votre poids, car elle vous aidera à détecter des changements dans votre poids avant qu’un problème ne surgisse.</p>
+
+	<p>Nous aimons vraiment aider les gens, alors n'hésitez pas à <a href="mailto:support@curlybrace.co.uk">nous contacter</a> si vous avez d'autres questions. Si vous aimez notre application, prévenez vos amis ou laissez-nous un <a href="itms-apps://itunes.apple.com/app/idAPP_ID">commentaire</a> sur l'App Store.</p>
+  </div>
+</section>
+
+</body>
+</html>

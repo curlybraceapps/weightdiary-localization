@@ -1,0 +1,30 @@
+Peso Diário - daily weight tracker
+
+Controle a sua perda de peso de forma simples e eficaz.
+
+Abra a aplicação todos os dias para digitar o seu peso e deixe o Peso Diário controlar o seu progresso e calcular quanto tempo levará a atingir o seu objetivo. Não é necessário que digite quantas calorias consumiu.
+
+A nossa linha de tendência mostrar-lhe-á os seus altos e baixos, para que possa avaliar o seu progresso. Quanto mais negativo for o declive da linha, mais peso está a perder. É tão simples quanto isto.
+
+Utilize a nossa calculadora de calorias e de concretização de objetivos para planear a sua dieta.
+
+Funcionalidades:
+
+* Apresenta o seu peso, a sua perda de peso e quanto peso ainda tem de perder
+* Calcula o seu IMC (índice de massa corporal)
+* Guarda a sua percentagem de massa gorda e permite redigir notas 
+* Permite passar o dedo para navegar no calendário e procurar qualquer registo
+* Mostra quantos dias esteve sem registar o seu peso, através do emblema vermelho por cima do ícone da aplicação, no ecrã principal (facultativo)
+* Permite analisar a linha de tendência e o progresso dos registos enquanto observa os seus gráficos
+* Apresenta os gráficos em ecrã completo, o que torna mais fácil a análise dos gráficos 
+* Planeia a sua dieta, a partir da calculadora de objetivos
+* Recomenda a intensidade de exercício físico que deve adotar, de forma a consumir as calorias recomendadas para a sua idade e estrutura
+* Permite visualizar o seu progresso de uma forma geral
+* Permite visualizar todos os registos individualmente e as respetivas notas
+* Protege todos os seus dados com um código definido por si (facultativo)
+* Oferece várias unidades: libras, quilogramas ou pedras; calorias ou quilojoules
+* Permite alterar a aparência da aplicação, utilizando o tema escuro disponível
+* Importa e exporta todos os registos e dados que tenha guardados
+* Sincronização com a aplicação Saúde do iOS
+* Sincroniza os dados com as balanças que possuem Wi-Fi
+* Esclarece as perguntas mais frequentes através do menu de ajuda da aplicação

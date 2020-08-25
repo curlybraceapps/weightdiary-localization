@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Súly Napló";
+
+NSUbiquitousContainerName = "Súly Napló";
+
+NSFaceIDUsageDescription = "Kinyit Súly Napló";
+
+NSHealthShareUsageDescription = "Szinkronizálni az iOS Egészség alkalmazással.";
+
+NSHealthUpdateUsageDescription = "Szinkronizálni az iOS Egészség alkalmazással.";

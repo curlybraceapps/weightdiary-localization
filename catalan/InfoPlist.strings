@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Pes Diari";
+
+NSUbiquitousContainerName = "Pes Diari";
+
+NSFaceIDUsageDescription = "Desbloquejar Pes Diari";
+
+NSHealthShareUsageDescription = "Sincronització amb l'aplicació de iOS Salut.";
+
+NSHealthUpdateUsageDescription = "Sincronització amb l'aplicació de iOS Salut.";

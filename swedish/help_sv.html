@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">How does the app work?</label>
+  </h1>
+  <div class="content">
+	<p>Enter your weight each day and the app will estimate your weekly weight loss and track your progress towards your goal.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">What is the yellow line in the graph?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>The yellow line is your <em>trend line</em>. Think of this as your average weight. Each day your weight will fluctuate up and down but this is mainly caused by changes in the amount of water and solids in your body.</p>
+
+	<p>The trend line cuts through the daily fluctuations and shows you what your underlying weight is doing. If most of your daily entries are below this line and the line is pointing downwards then these are signs you are losing weight.</p>
+
+	<p>If you get too many entries above the trend line then you may need to adjust your diet to get back on track.</p>
+  </div>
+</section>
+
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">What are the green/red arrows?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows.png" width="192" height="71" /></p>
+
+	<p>These tell you at a glance if your weight on that day was above or below the trend line.</p>
+
+	<p>The <em>current trend</em> entry in the summary view shows how many days in a row you have been above or below the trend line.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">What do Trend and Goal fields show?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal.png" width="290" height="74" /></p>
+
+	<p>The <em>trend</em> field shows your estimated rate of weight loss. It can be shown as a weekly loss/gain or as a daily calorie deficit/excess. Tap on the field to switch between the weekly and daily view.</p>
+
+	<p>The <em>goal</em> field shows your goal as a progress bar or a time estimate or how much weight you have left to lose. Tap on the field to switch between these views. Note: The time estimate can only be shown when you are losing weight.</p>
+
+	<p>Since trend and goal are calculated from your last few weight entries any changes to your diet may take a few days to show up fully.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4.5">
+  <h1 class="handle">
+    <label for="Q4.5">Why is the time estimate in the Goal field different than the goal calculator?</label>
+  </h1>
+  <div class="content">
+	<p>The <em>goal</em> field is based on your current rate of weight loss as calculated from your last few weight entries. The goal calculator is a diet planning tool and it is your job to adjust your diet until the goal field matches your desired rate of weight loss.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Do I need to weigh myself every day?</label>
+  </h1>
+  <div class="content">
+	<p>We rely on your daily weigh-ins to calculate the trend line and estimate your weight loss. Missing the occasional day here and there won't hurt but if you miss too many days the estimates won't be as accurate.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">What if I like to weigh myself once a week?</label>
+  </h1>
+  <div class="content">
+	<p>Once a week is not enough to get accurate weight loss estimates and you won't be able to respond as quickly to changes in your rate of weight loss.</p>
+
+	<p>Our advice is trust the trend and just focus on keeping your daily entries below the trend line.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">What does the BMI scale show?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi.png" width="264" height="50" /></p>
+
+	<p>The default BMI scale goes from 18.5 (normal) on the left to 35 (obese) on the right. Remember, these are guidelines only and healthy BMI ranges can vary by country, age, height and other factors. The lower and upper BMI range can be customised in the settings if you have the paid version of our app.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">How do I import a saved backup file?</label>
+  </h1>
+  <div class="content">
+	<p>The paid version of the app can import saved backup files. The easiest way to do this is to email the backup file to your iPhone. Open the email and tap &amp; hold on the backup file and select "Open in Weight Diary".</p>
+
+	<p>To import a backup file from Dropbox open the Dropbox app and tap on the backup file you want to import. In the file view tap the sharing button in the lower right and select "Open in Weight Diary".</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">What is the format for importing data?</label>
+  </h1>
+  <div class="content">
+	<p>We use CSV files which are supported by most spreadsheet programs. The best way to do this is to have at least one weight entry and then use the backup feature to generate a CSV file you can fill in. If you need more details contact us and we will be glad to help.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">Is that it?</label>
+  </h1>
+  <div class="content">
+	<p>Yes. Remember this isn't just a tool for losing weight. It is good for maintaining your weight because it will help you detect any changes in your weight before it becomes an issue.</p>
+
+	<p>We really like helping people so feel free to <a href="mailto:support@curlybrace.co.uk">contact us</a> if you have any more questions. If you like our app then tell your friends or leave us a <a href="itms-apps://itunes.apple.com/app/idAPP_ID">review</a> on the App Store.</p>
+  </div>
+</section>
+
+</body>
+</html>

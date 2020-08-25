@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Com funciona?</label>
+  </h1>
+  <div class="content">
+	<p>Introduïu el vostre pes diàriament, calculem la seva pèrdua de pes setmanalment i el progrés cap a la seva meta.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Què és la línia groga?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>La línia groga és la seva trajectòria. Penseu en això com el seu pes mitjà. Cada dia el seu pes fluctuarà cap amunt i cap avall, això es deu principalment als canvis en la quantitat d'aigua i sòlids en el seu cos.</p>
+
+	<p>La línia de la seva trajectòria curta a través de les fluctuacions diàries i li mostra el que fa el teu pes subjacent. Si la majoria de les entrades diàries es troben per sota d'aquesta línia i la línia està apuntant cap avall, això són signes que vostè està perdent pes.</p>
+
+	<p>Si vostè rep massa entrades per sobre de la línia de trajectòria, potser haureu d'ajustar la seva dieta.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">Què són les fletxes verdes/vermelles?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_ca.png" width="192" height="71" /></p>
+
+	<p>Això li diu d'una ullada si el seu pes en aquest dia estava per sobre o per sota de la línia de trajectòria.</p>
+
+	<p>La trajectòria actual a Vista de resum mostra el nombre de dies en una fila que ha estat per sobre o per sota de la línia de trajectòria.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Quines tendències i camps del seu objectiu es mostren?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_ca.png" width="290" height="74" /></p>
+
+	<p>El camp de trajectòria mostra la seva taxa estimada de pèrdua de pes. Es pot mostrar com una pèrdua / guany setmanal o com un dèficit / excés de calories diàries. Feu clic al camp per canviar entre la vista setmanal i diària.</p>
+
+	<p>El camp d'objectiu, mostra el seu objectiu com una barra de progrés o una estimació de temps o la quantitat de pes que li queda per perdre. Feu clic al camp per passar aquestes vistes. Nota: L'estimació de temps només es pot mostrar quan s'està perdent pes.</p>
+
+	<p>Atès que la tendència i l'objectiu es calculen a partir de les últimes entrades de pes dels canvis en la seva dieta poden trigar uns dies a aparèixer totalment.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Per què l'estimació de temps en el camp objectiu és diferent que la calculadora d'objectius?</label>
+  </h1>
+  <div class="content">
+	<p>El camp d'objectiu es basa en el ritme actual de pèrdua de pes, calculat a partir dels seus últims missatges de pes. La calculadora d'objectius és una eina de planificació de dieta i és el seu treball ajustar la seva dieta fins que el camp objectiu coincideix amb la freqüència desitjada de la pèrdua de pes.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">He pesar-me cada dia?</label>
+  </h1>
+  <div class="content">
+	<p>Ens basem en els seus ingressos diaris de pes per calcular la trajectòria i estimem la seva pèrdua de pes. Si no ho fa al dia, no li farà mal, però si es passa molts dies les nostres estimacions no seran tan precises.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Què passa si em pes una vegada a la setmana?</label>
+  </h1>
+  <div class="content">
+	<p>Ho sentim, un cop a la setmana no és suficient per obtenir estimacions exactes de la pèrdua de pes i vostè no serà capaç d'apreciar els canvis de pèrdua de pes.</p>
+
+	<p>El nostre consell és confiar en la trajectòria i només centrar-se en mantenir les seves entrades diàries per sota de la línia de trajectòria.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Què mostra l'escala d'IMC?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>L'escala per defecte IMC va d'esquerra 18,5 (normal) a dreta 35 (obesitat). Recordeu, aquestes són només directrius i l'IMC poden variar segons el país, l'edat, l'alçada i altres factors. El rang d'IMC inferior i superior es poden personalitzar en la configuració si té la versió de pagament de la nostra aplicació.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Com puc importar una còpia de seguretat guardada?</label>
+  </h1>
+  <div class="content">
+	<p>La versió de pagament de l'aplicació pot importar còpies de seguretat guardades. La forma més fàcil de fer això és enviar la còpia de seguretat al seu iPhone. Obriu el correu electrònic, toc i premeu la còpia de seguretat i seleccioneu "Obrir en Pes Diari".</p>
+
+	<p>Per importar una còpia de seguretat des Dropbox, obre l'aplicació Dropbox i premi sobre la còpia de seguretat que voleu importar. A la vista d'arxius, toc en el botó Compartir a la part inferior dreta i seleccioneu "Obrir en Pes Diari".</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">Quin és el format per a la importació de dades?</label>
+  </h1>
+  <div class="content">
+	<p>Nosaltres fem servir. Csv que són suportats per la majoria dels programes de fulls de càlcul. La millor manera de fer això és tenir almenys una entrada de pes i després utilitzeu la funció de còpia de seguretat per generar un arxiu csv. Vostè necessita més detalls contacteu amb nosaltres i estarem encantats d'ajudar.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q11">
+  <h1 class="handle">
+    <label for="Q11">Això és tot?</label>
+  </h1>
+  <div class="content">
+	<p>Sí. Recordeu que això no és només una eina per perdre pes. És bona per al manteniment del seu pes, ja que l'ajudarà a detectar qualsevol canvi en el seu pes abans que sigui un problema.</p>
+
+	<p>Ens agrada ajudar a la gent pel que no dubti en <a href="mailto:support@curlybrace.co.uk">contactar</a> amb nosaltres si té alguna pregunta més. Si li agrada la nostra aplicació pot dir-ho als amics o deixar-nos un <a href="itms-apps://itunes.apple.com/app/idAPP_ID">comentari</a> en l'App Store</p>
+  </div>
+</section>
+
+</body>
+</html>

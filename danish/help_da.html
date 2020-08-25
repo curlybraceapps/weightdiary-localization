@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Hvordan virker det?</label>
+  </h1>
+  <div class="content">
+	<p>Indtast din vægt hver dag, og du kan følge dit ugentlige vægttab samt fremskridt mod at nå dit mål.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Hvad er den gule linje?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>Den gule linje er tendens linjen. Tænk på dette som din gennemsnitlige vægt over tid. Hver dag din vægt vil svinge op og ned, men det er primært forårsaget af ændringer i mængden af ​​vand og faste stoffer i din krop.</p>
+
+	<p>Tendensen linie skærer igennem de daglige udsving, og viser dig, hvad din underliggende vægt gør. Hvis de fleste af dine daglige indtastninger er under denne linje og den linje peger nedad så er disse tegn på, du er ved at tabe dig.</p>
+
+	<p>Hvis du får for mange poster over linjen, kan det være nødvendigt at justere din kost for at komme tilbage på sporet.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">Hvad viser de grønne og røde pile?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_da.png" width="192" height="71" /></p>
+
+	<p>Disse viser dig et overblik, hvor din vægt på denne dag var over eller under den tendens linje og hvor mange dage i træk du har været over eller under tendens linjen.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Hvad viser Trend og mål felterne?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_da.png" width="290" height="74" /></p>
+
+	<p>Feltet Tendens viser dit estimerede vægttab. Det kan vises som en ugentlig tab / tilvækst eller som en daglig kalorie underskud / overskud. Tryk på feltet for at skifte mellem den ugentlige og daglige oversigt.</p>
+
+	<p>Mål feltet viser dit mål som en statuslinje eller et tidsmæssigt skøn eller hvor meget vægt, du har tilbage at tabe. Tryk på feltet for at skifte mellem disse oversigter. Bemærk: tids estimatet kan kun vises under vægttab.</p>
+
+	<p>Da tendensen og mål beregnes ud fra dine sidste indtastninger kan eventuelle ændringer i din kost tage et par dage før de bliver vist.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Hvorfor er tids estimatet på mål feltet forskelligt fra mål udregneren?</label>
+  </h1>
+  <div class="content">
+
+	<p>Mål feltet er baseret på din nuværende vægttabs hastighed som beregnes ud fra dine sidste par indtastninger. Mål beregneren er et kost planlægningsværktøj, og det er jo dig selv som at justerer din kost indtil tallet i mål feltet matcher dit ønskede vægttab.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">Behøver jeg at veje mig hver dag?</label>
+  </h1>
+  <div class="content">
+	<p>Vi er afhængige af dine daglige vægt indtastninger for at kunne beregne trend linien og estimere dit vægttab. Hvis du ikke husker at indtaste din vægt tit nok vil estimatet blive mindre nøjagtigt.</p>
+  </div>
+</section>
+
+
+<a id="weekly"></a>
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Vil det være nok at veje mig ugentligt?</label>
+  </h1>
+  <div class="content">
+	<p>Beklager. En gang om ugen er ikke tilstrækkeligt til at få en tilnærmelsesvis nøjagtig estimat for et vægttab og det vil derfor ikke være muligt at informere om hvornår du taber dig.</p>
+
+	<p>Vores råd er at bruge Trend linjen og fokusere på dine daglige indtastninger som ligger under denne linje.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Hvad viser BMI skalaen?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>Standard værdierne for BMI skalaen går fra venstre 18,5 (normal) til højre 35 (ekstremt overvægtig). Husk at disse kun er retningslinjer og disse intervaller kan variere i forhold til land, alder, højde og andre faktorer. Disse kan justeres i den betalte version af denne App.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Hvordan importerer jeg en gemt sikkerhedskopi?</label>
+  </h1>
+  <div class="content">
+
+	<p>Den betalte version af denne App kan importere gemte sikkerhedskopier. Den nemmeste metode er at emaile filen til din Iphone. Åbn email app'en og åbn filen hvor du vælger at Åbne denne fil med "Vægt Dagbog".</p>
+
+	<p>For at importere en sikkerhedskopi fra Dropbox, åbn Dropbox app'en og vælg den fil du ønsker at importere. Under "file" vælg "sharing" knappen nederst til højre og vælg "Åbn i Vægt Dagbog".</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">Hvad er formatet man importerer data fra?</label>
+  </h1>
+  <div class="content">
+	<p>Vi benytter .csv filer som er understøttet af de fleste regnearks pogrammer. Den bedste måde at gøre dette på er at have mindst en indtastning og bruge sikkerhedskopi funktionen til at generere en .csv fil du kan udfylde. Hvis du ønsker flere detaljer må du endelig kontakte os så vi kan hjælpe dig.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q11">
+  <h1 class="handle">
+    <label for="Q11">Er det alt?</label>
+  </h1>
+  <div class="content">
+	<p>Ja. Husk - Dette er ikke bare et redskab til at hjælpe med vægttab. Det er også godt til at opretholde den samme vægt fordi det hjælper dig med at opdage forandringer i din vægt før det bliver et problem.</p>
+
+	<p>Vi vil virkelig gerne hjælpe mennesker med deres vægt. <a href="mailto:support@curlybrace.co.uk">Kontakt os</a> endelig hvis du har flere spørgsmål. Hvis du kan lide vore App så fortæl om den til dine venner eller <a href="itms-apps://itunes.apple.com/app/idAPP_ID">bedøm</a> den i App Store
+  </div>
+</section>
+
+</body>
+</html>

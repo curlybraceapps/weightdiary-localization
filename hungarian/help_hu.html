@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Hogyan mûködik?</label>
+  </h1>
+  <div class="content">
+	<p>Adja meg a testsúlyát minden nap és ez alapján mi megbecsüljük az ön heti súlycsökkenését, és figyelemmel kísérjük a haladását a végsõ cél eléréséhez.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1.5">
+  <h1 class="handle">
+    <label for="Q1.5">Mit jelent a sárga vonal?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>A sárga vonal mutatja a haladást. Vegye úgy, hogy ez az átlagos testsúlyt jelenti. A testsúly minden nap változik pozitív illetve negatív irányba, de ez attól függ, hogy jelenleg mennyi a szilárd tápanyag és a víz a szervezetben.</p>
+
+	<p>Ha a napi bejegyzések nagy része a sárga vonal alá esnek és ez a vonal lefelé halad, az súlycsökkenést jelez.</p>
+
+	<p>Ha túl sok bejegyzés kerül a sárga vonal fölé, akkor az azt jelenti, hogy változtatni kell a táplálkozáson, hogy minden a kívánt tendencia szerint haladjon.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Mit jelentenek a zöld/piros nyilak?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_hu.png" width="192" height="71" /></p>
+
+	<p>Ezek azonnal megmutatják, hogy a súlyod az aktuális napon a kívánt érték alatt, vagy fölött volt.</p>
+
+	<p>Az Összegzés menüben a Jelenlegi széria megmutatja, hogy mióta tart a folyamatos súlycsökkenés/növekedés.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">Mit mutatnak a Trend és a Cél mezõk?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_hu.png" width="290" height="74" /></p>
+
+	<p>A Trend mezõ az átlagos súlycsökkenést mutatja. Megjeleníthetõ heti átlagos súlyváltozás vagy napi átlagos kalóriaváltozás nézetben is. Bökjön a mezõre a nézetek közötti váltáshoz.</p>
+
+	<p>A Cél mezõ megmutathatja, hogy a célunk eléréséhez, hány kg-ot kell még fogyni, valamint azt, hogy ha ugyanilyen ütemben halad a fogyás, akkor átlagosan mennyi idõre van még szükség továbbá ezt állapotjelzõ sáv is szemléltetheti. Bökjön a mezõre a nézetek közötti váltáshoz. Megjegyzés: A várt befejezés dátum szerinti becslése, csak csúlycsökkenés esetén számítható ki.</p>
+
+	<p>Mivel a Trend és a Cél a legutóbbi néhány súlyadat alapján kerül kiszámításra, így az esetleges étkezésben való változások szemléltetése több napot is igénybe vehet.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Miért mutat más értéket a Cél mezõ és a Cél Kalkulátor idõbecslése?</label>
+  </h1>
+  <div class="content">
+	<p>Azért, mert a Cél mezõ elõzõ adatok alapján kerül kiszámításra, míg a Cél Kalkulátor egy diéta tervezõ eszköz, ahol mindenki magának kell hogy állítsa a mezõket.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Minden nap kell mérnem magam?</label>
+  </h1>
+  <div class="content">
+	<p>A napi súlyadatok alapján számítjuk ki a tredvonalat és becsüljük meg a testsúly változását. Néha egy-két nap kihagyás nem okoz gondot, de minél gyakoribb az adatbevitel, annál pontosabb a becslések kimenetele.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">Mi van akkor, ha én csak heti egyszer mérem magam?</label>
+  </h1>
+  <div class="content">
+	<p>Sajnos heti egy adatbevitel nem elég ahhoz, hogy a pontos súlyváltozást meg tudjuk becsülni, szemléltetni.</p>
+
+	<p>A tanácsunk az, hogy próbáljon lehetõség szerint minél gyakrabban súlyadatokat produkálni és próbáljunk a trendvonal alatt maradni.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Mit mutat a TTI skála?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>Az alap TTI skála 18,5(normális)-tõl 35(elhízott)-ig van számozva balról jobbra haladva. Vegye figyelembe, hogy ezek csupán tájékoztató jellegû adatok és eltérõek lehetnek kortól, nemtõl, magasságtól, földrajzi elhelyezkedéstõl stb. függõen. Az alsó és felsõ határértékek testre szabhatóak a beállítások menüpontban, hogyha Ön a teljes verziót használja.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Hogyan importálhatok egy biztonsági mentést?</label>
+  </h1>
+  <div class="content">
+	<p>A teljes verziójú alkalmazásban erre is lehetõsége nyílik. Erre a legkönyebb mód, hogy elküldjük magunknak e-mail-ben a mentett adatbázist (backup fájl) a készülékünkre, majd az e-mail megnyitása után bökjünk, majd hosszan tartsuk ujjunkat a backup fájlon azután válasszuk a "Megnyitás a SúlyNaplóban" lehetõséget.</p>
+
+	<p>Ahhoz, hogy egy biztonsági mentést importáljunk a Dropbox fiókunkból, nyissuk meg a Dropbox alkalmazást a készülékünkön és bökjünk a backup fájlra amit importálni szeretnénk. A fájl nézetben bökjön a megosztás gombra jobb alul és válasszuk a "Megnyitás a SúlyNaplóban" lehetõséget.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Milyen formátumban történik a biztonsági mentés és annak importálása?</label>
+  </h1>
+  <div class="content">
+
+	<p>Ez az alkalmazás .csv kiterjesztésû fájlokat használ, amit a legtöbb adatbáziskezelõ program támogat. Az importálás legjobb módja az, ha van legalább egy súlybejegyzés a lementett fájlban, és azután használjuk csak a visszaállítás funkciót. Így akár számítógéprõl, adatbáziskezelõ programmal is könnyedén tudjuk szerkeszteni az adatokat. Amennyiben további információra van szüksége, lépjen velünk kapcsolatba és örömmel állunk az Ön rendelkezésére.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">Ennyi?</label>
+  </h1>
+  <div class="content">
+	<p>Igen. Jegyezze meg, ez az alkalmazás nem csupán fogyást megkönnyítõ eszköz, hanem segíti a testsúly figyelemmel kísérését és még idõben figyelmeztet az esetleges jövõbeli problémákra.</p>
+
+	<p>A csapatunk örömmel áll minden kedves felhasználónk rendelkezésére, így akármilyen kérdése, gondja merülne fel, bátran <a href="mailto:support@curlybrace.co.uk">lépjen velünk kapcsolatba</a>. Ha tetszik önnek az alkalmazásunk, mondja el barátainak is vagy hagyjon egy <a href="itms-apps://itunes.apple.com/app/idAPP_ID">értékelést</a> számunkra az App Store-ban.</p>
+  </div>
+</section>
+
+</body>
+</html>

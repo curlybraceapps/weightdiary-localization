@@ -1,0 +1,720 @@
+/* wifi scale */
+"%@ WiFi Scale" = "WiFi весы %@";
+
+/* info message */
+"%@. Please use our web support page." = "%@. Пожалуйста, обратитесь в службу поддержки.";
+
+/* X centimetres */
+"%ld cm" = "%ld см";
+
+/* 1 day */
+"%ld day" = "%ld day";
+
+/* 3 days */
+"%ld days" = "%ld days";
+
+/* 1 month */
+"%ld%@ month" = "%ld%@ month";
+
+/* 3 months */
+"%ld%@ months" = "%ld%@ months";
+
+/* 1 week */
+"%ld%@ week" = "%ld%@ week";
+
+/* 3 weeks */
+"%ld%@ weeks" = "%ld%@ weeks";
+
+/* 1 year */
+"%ld%@ year" = "%ld%@ year";
+
+/* 3 years */
+"%ld%@ years" = "%ld%@ years";
+
+/* per week (e.g. kg/week) */
+"/week" = "/неделю";
+
+/* weight loss for previous 2 weeks */
+"1 Month" = "1 Месяц";
+
+/* weight loss for previous week */
+"1 Week" = "1 Неделя";
+
+/* weight loss for previous 1 year */
+"1 Year" = "1 Год";
+
+/* exercise frequency */
+"1-3 days/week" = "1-3 дня/неделю";
+
+/* 1 month shortform (must be two characters) */
+"1m" = "1м";
+
+/* 1 week shortform (must be two characters) */
+"1w" = "1н";
+
+/* 1 year shortform (must be two characters) */
+"1y" = "1г";
+
+/* weight loss for previous 2 weeks */
+"2 Weeks" = "2 Недели";
+
+/* exercise frequency */
+"2+ daily" = "2+ ежедневно";
+
+/* 2 weeks shortform (must be two characters) */
+"2w" = "2н";
+
+/* 2 years shortform (must be two characters) */
+"2y" = "2г";
+
+/* weight loss for previous 3 months */
+"3 Months" = "3 Месяца";
+
+/* exercise frequency */
+"3-5 days/week" = "3-5 дней/неделю";
+
+/* 3 months shortform (must be two characters) */
+"3m" = "3м";
+
+/* weight loss for previous 6 months */
+"6 Months" = "6 Месяцев";
+
+/* exercise frequency */
+"6-7 days/week" = "6-7 дней/неделю";
+
+/* 6 months shortform (must be two characters) */
+"6m" = "6м";
+
+/* about the App/information */
+"About" = "О";
+
+/* exercise level */
+"active" = "энергичный";
+
+/* exercise frequency */
+"activity level" = "уровень активности";
+
+/* notes feature */
+"Add custom notes to your weight entries" = "Добавляйте собственные заметки";
+
+/* age */
+"age" = "возраст";
+
+/* graph all data (must be short) */
+"all" = "все";
+
+/* app store */
+"App Store" = "App Store";
+
+/* theme */
+"Appearance" = "Внешний вид";
+
+/* Apple health app */
+"Apple Health" = "Приложение Здоровье";
+
+/* info message */
+"At least one weight entry is required to use the calorie calculator." = "По крайней мере одна запись веса необходима, чтобы использовать калькулятор калорий.";
+
+/* info message */
+"At least one weight entry is required to use the goal calculator." = "По крайней мере одна запись веса необходима, чтобы использовать калькулятор цели.";
+
+/* automatic */
+"Auto" = "Авто";
+
+/* automatic backup */
+"Auto Backup" = "Авто Резервная Копия";
+
+/* enable backup file sync */
+"Auto-load latest backup file to sync data between multiple iOS devices." = "Синхронизация с последней резервной копии.";
+
+/* backup data */
+"Backup" = "Резервная Копия";
+
+/* backup file location */
+"Backup files are located in the Weight Diary folder in iCloud Drive." = "";
+
+/* backup filename */
+"Backup.csv" = "РезервнаяКопия.csv";
+
+/* backup filename for lite version */
+"BackupLite.csv" = "РезервнаяКопияЛайт.csv";
+
+/* app icon badge */
+"Badge" = "Наклейка";
+
+/* birth date */
+"Birthday" = "День рождения";
+
+/* blue theme */
+"Blue" = "Синий";
+
+/* body mass index shortform */
+"bmi" = "ИМТ";
+
+/* min/max BMI for display */
+"BMI Range" = "Диапазон ИМТ";
+
+/* body mass index */
+"Body Mass Index" = "Индекс Массы Тела";
+
+/* by.. Oct 10, 2012 (text box label) */
+"by" = "к";
+
+/* by adding... 500 cal/day (text box label) */
+"by adding" = "увеличивая на";
+
+/* by cutting... 500 cal/day (text box label) */
+"by cutting" = "сокращая на";
+
+/* calories/day shortform */
+"cal/day" = "кал/день";
+
+/* daily calorie requirements calculator */
+"Calorie Calculator" = "Калькулятор Калорий";
+
+/* calories */
+"calories" = "калории";
+
+/* Cancel button */
+"Cancel" = "Отмена";
+
+/* change past entry button */
+"Change Past Entry" = "Изменить Прошлое Значение";
+
+/* change past (weight) entry? */
+"Change past weight entry?" = "Изменить прошлое значение веса?";
+
+/* message explaining starting weight setting */
+"Choose a starting date for weight loss/gain and goal calculations.\n\nTip: You can drag in the graph view above to set your starting weight." = "";
+
+/* message explaining start week on setting */
+"Choose the day that the week starts on in the drop-down calendar." = "";
+
+/* centimetres */
+"cm" = "см";
+
+/* color theme */
+"Color Theme" = "Цветовая тема";
+
+/* commonly asked questions */
+"Common Questions" = "Общие Вопросы";
+
+/* message explaining how the calorie calculator works */
+"Compute your personal daily calorie requirements." = "Вычислить ваши личные ежедневные потребности в калориях.";
+
+/* no translation required */
+"CurlyBrace.co.uk" = "CurlyBrace.co.uk";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Current Trend" = "Текущая тенденция";
+
+/* custom */
+"Custom" = "Настроенная";
+
+/* total daily calorie requirements */
+"daily calorie target" = "калорий в день";
+
+/* list of all weight entries ordered by date */
+"Daily Log" = "Дневной журнал";
+
+/* dark theme */
+"Dark" = "Темный";
+
+/* dark theme */
+"Dark Theme" = "Темная Тема";
+
+/* data section */
+"Data" = "Данные";
+
+/* App icon badge showing number of days since last weigh-in */
+"Days Missed Badge" = "Значок Пропущенных Дней";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .0" = "Десятичный  ,0";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .00" = "Десятичный  ,00";
+
+/* delete/remove button */
+"Delete" = "Удалить";
+
+/* delete file */
+"Delete %@?" = "Удалить %@?";
+
+/* delete 10 weight entries? (confirmation) */
+"Delete %ld weight entries?" = "Удалить %ld значений веса?";
+
+/* delete 1 weight entry? (confirmation) */
+"Delete %ld weight entry?" = "Удалить %ld значение веса?";
+
+/* delete all */
+"Delete All Entries" = "Удалить Все Значения";
+
+/* delete confirmation dialog */
+"Delete this weight entry?" = "Удалить это значение веса?";
+
+/* deleting */
+"Deleting…" = "Удалить…";
+
+/* discard changes */
+"Discard Changes" = "Отменить изменения";
+
+/* Done button (finished) */
+"Done" = "Готово";
+
+/* earliest */
+"Earliest" = "Первый";
+
+/* Edit button */
+"Edit" = "Правка";
+
+/* email */
+"Email" = "E-mail";
+
+/* food energy (calories or kilojoules) */
+"Energy" = "Энергия";
+
+/* 4 digit passcode/password */
+"Enter Passcode" = "Введите Пароль";
+
+/* export data */
+"Export" = "Экспортировать";
+
+/* fat shortform */
+"fat" = "жир";
+
+/* body fat percentage */
+"Fat %" = "Жир %";
+
+/* No comment provided by engineer. */
+"Fatal Error. Database is corrupt or was created by a newer version" = "Критическая ошибка. Невозможно загрузить данныею";
+
+/* gender */
+"female" = "женщина";
+
+/* blue theme */
+"Fifty Shades of Blue" = "Пятьдесят оттенков синего";
+
+/* no translation required */
+"Fitbit" = "Fitbit";
+
+/* Weight quarter fractions e.g. 140 1/2 */
+"Fractional  ¼ ½ ¾" = "Дробный  ¼ ½ ¾";
+
+/* fullscreen graph feature */
+"Full-screen multi-touch graph view" = "Просмотр графиков на весь экран";
+
+/* gender/age */
+"Gender & Age" = "Пол / Возраст";
+
+/* gender/birthday */
+"Gender & Birthday" = "Пол / День рождения";
+
+/* weight loss goal/target/objective */
+"Goal" = "Цель";
+
+/* calculate weight loss targets based on your goal */
+"Goal Calculator" = "Калькулятор Цели";
+
+/* target weight */
+"Goal Weight" = "Желаемый Вес";
+
+/* heaviest recorded weight */
+"Heaviest" = "Наибольший";
+
+/* your height */
+"Height" = "Рост";
+
+/* your height */
+"height" = "рост";
+
+/* help title */
+"Help" = "Помощь";
+
+/* no translation required */
+"help_en" = "help_ru";
+
+/* iCloud Drive */
+"iCloud Drive" = "iCloud Drive";
+
+/* import data */
+"Import" = "Импорт";
+
+/* import file */
+"Import %@?" = "Импорт %@?";
+
+/* No comment provided by engineer. */
+"Import Error" = "Ошибка импорта";
+
+/* message to transfer data */
+"Import existing data from Weight Diary Lite?" = "Хотите ли вы перенести свои данные из Дневник Веса Лайт?";
+
+/* message to transfer data */
+"Import existing data from your latest backup?" = "Хотите ли вы перенести свои данные?";
+
+/* No comment provided by engineer. */
+"Import failed" = "Не удалось импортировать";
+
+/* import message */
+"Importing…" = "Импортирую…";
+
+/* inches */
+"in" = "дюймы";
+
+/* displayed when user types invalid password */
+"Incorrect passcode. Try again." = "Неправильный пароль. Попробуйте снова";
+
+/* exercise level */
+"intense" = "интенсивный";
+
+/* delete entries older than X months */
+"Keep Last %ld Months" = "Keep Last %ld Months";
+
+/* delete entries older than 1 month */
+"Keep Last 1 Month" = "Keep Last 1 Month";
+
+/* kilogram shortform */
+"kg" = "кг";
+
+/* kilograms (weight) */
+"Kilograms" = "Килограммы";
+
+/* kilograms (weight) */
+"kilograms" = "килограммы";
+
+/* kilojoules (food energy) */
+"kilojoules" = "килоджоули";
+
+/* kilojoules per day shortform */
+"kJ/day" = "кДж/день";
+
+/* last monday, tuesday, etc. (must work for all weekdays) */
+"Last %@" = "Прошлый %@";
+
+/* sync latest iPad backup */
+"Latest iPad Backup" = "Последняя архивация";
+
+/* sync latest iPhone backup */
+"Latest iPhone Backup" = "Последняя архивация";
+
+/* pound shortform */
+"lb" = "lb";
+
+/* light theme */
+"Light" = "Светлый";
+
+/* exercise level */
+"light" = "легкий";
+
+/* lightest recorded weight */
+"Lightest" = "Наименьший";
+
+/* Link button */
+"Link Account" = "Привязать Аккаунт";
+
+/* link wifi scale */
+"Link your %@ account to automatically import new weight data." = "Привяжите свой %@ аккаунт чтобы автоматически импортировать новые данные веса.";
+
+/* loading message */
+"Loading…" = "Загрузка…";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Longest Trend" = "Дней подряд";
+
+/* gender */
+"male" = "мужчина";
+
+/* exercise level */
+"moderate" = "умеренный";
+
+/* Monday */
+"Monday" = "Пон";
+
+/* morbidly obese BMI */
+"morbidly obese" = "тяжелое ожирение";
+
+/* more options */
+"More…" = "Еще…";
+
+/* fullscreen graph feature (iPad) */
+"Multi-touch graph view" = "Интерактивный граф";
+
+/* n/a - not applicable */
+"n/a" = "н/д";
+
+/* enter your new passcode/password */
+"New passcode" = "Новый пароль";
+
+/* Next button */
+"Next" = "Далее";
+
+/* no ads feature (iPad) */
+"No ads" = "Никакой рекламы";
+
+/* no ads feature */
+"No ads. More space to see your data" = "Никакой рекламы. Больше места";
+
+/* No files found */
+"NO BACKUP FILES FOUND.\n\n" = "ФАЙЛЫ НЕ НАЙДЕНЫ.\n\n";
+
+/* nothing to delete */
+"No Entries to Delete" = "Нет Данных для Удаления";
+
+/* exercise frequency */
+"no exercise" = "без упражнений";
+
+/* nothing */
+"none" = "ничего";
+
+/* normal BMI */
+"normal" = "средний";
+
+/* not available */
+"Not Available" = "Недоступно";
+
+/* goal/height not defined */
+"not set" = "не установлен";
+
+/* Apple health settings */
+"Note: Access permissions are located in the Health app under Sources." = "";
+
+/* notes */
+"Notes" = "Примечания";
+
+/* obese BMI */
+"obese" = "легкое ожирение";
+
+/* off */
+"Off" = "Выкл.";
+
+/* OK button - not always translated */
+"OK" = "OK";
+
+/* old color themes */
+"Older Themes" = "Старые цветовые темы";
+
+/* on */
+"On" = "Вкл.";
+
+/* Weight ounces 140lb 12oz */
+"Ounces  0…15" = "Унции  0…15";
+
+/* overweight BMI */
+"overweight" = "избыточный вес";
+
+/* ounce shortform */
+"oz" = "oz";
+
+/* 4 digit passcode/password */
+"Passcode" = "Пароль";
+
+/* user did not correctly verify their new passcode */
+"Passcodes do not match. Try again." = "Пароли не сходятся. Попробуйте снова.";
+
+/* message explaining how the goal calculator works */
+"Plan your diet by date, weekly change or calorie reduction. Changing any value automatically updates the other ones and calculates the weekly and daily targets you need to achieve your goal." = "Планируйте свой ​​рацион по дате, еженедельная смена или уменьшение калорий. Изменение любого значение автоматически обновляет другие значения и рассчитывает еженедельные и ежедневные цели, нужные для достижения своей цели.";
+
+/* iCloud Drive required message */
+"Please enable iCloud Drive to use this feature." = "Активировать iCloud Drive использовать эту функцию.";
+
+/* No comment provided by engineer. */
+"Please ensure Weight Diary has sufficient permissions to use Apple Health.\n\nLook in the Health app under Sources for details." = "";
+
+/* link to app store for rating/reviewing the app */
+"Please Rate %@" = "Оцените Это Приложение";
+
+/* disable wifi scale message */
+"Please unlink your current WiFi scale before linking a new one." = "Пожалуйста, отвяжите текущие WiFi весы, чтобы подключить другие.";
+
+/* pounds (imperial weight unit) */
+"pounds" = "фунты";
+
+/* pounds (imperial weight unit) */
+"Pounds" = "Фунты";
+
+/* reset/clear data */
+"Reset" = "Сброс";
+
+/* restore data */
+"Restore" = "Восстановить";
+
+/* rotate message when big graph empty */
+"rotate device to enter weight" = "поверните устройство, чтобы ввести вес";
+
+/* Save button */
+"Save" = "Сохранить";
+
+/* save changes */
+"Save Changes" = "Сохранить изменения";
+
+/* send email */
+"Send Feedback" = "Связь с нами";
+
+/* Application settings */
+"Settings" = "Настройки";
+
+/* Settings App */
+"Settings App" = "Настройки";
+
+/* finished setup */
+"Setup Complete" = "Настройка Завершена";
+
+/* severely obese BMI */
+"severely obese" = "ожирение";
+
+/* gender */
+"sex" = "пол";
+
+/* show BMI display on the main screen */
+"Show BMI" = "Показать ИМТ";
+
+/* app icon badge description */
+"Show number of days since your last weight entry on the app icon." = "";
+
+/* stones shortform */
+"st" = "st";
+
+/* day to start week on in calendar */
+"Start Week On" = "Начинать Неделю с ";
+
+/* initial weight */
+"Starting Weight" = "Начальный Вес";
+
+/* UK weight measurement (no translation required?) */
+"Stones" = "Stones (UK)";
+
+/* UK weight measurement (translation required?) */
+"stones" = "stones (UK)";
+
+/* weight fractional units */
+"Sub-units" = "субъединицы";
+
+/* summary (title for progress/weight loss section) */
+"Summary" = "Сводка";
+
+/* Sunday */
+"Sunday" = "Вскр";
+
+/* sync section */
+"Sync" = "Синхронизация";
+
+/* Apple health sync */
+"Sync weight data to the iOS Health app." = "Включить синхронизацию данных о весе с данными из стандартного приложения Здоровье?";
+
+/* syncing feature */
+"Sync with Apple Health and popular WiFi scales from Fitbit and Withings" = "Синхронизация с Приложение Здоровье и весы FitBit/Withings";
+
+/* syncing feature (iPad) */
+"Sync with popular WiFi scales from Fitbit and Withings" = "Синхронизация с весы FitBit/Withings.";
+
+/* import message */
+"Syncing…" = "Синхронизация…";
+
+/* system setting */
+"System" = "Система";
+
+/* rating appeal */
+"This version has %@ ratings. :-)" = "Рейтингов для этой версии: %@. 😀";
+
+/* rating appeal */
+"This version has no ratings. :-(" = "Эта версия не имеет рейтингов. 🙁";
+
+/* rating appeal */
+"This version has only %@ rating. :-(" = "Рейтингов для этой версии: %@. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-(" = "Рейтингов для этой версии: %@. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-|" = "Рейтингов для этой версии: %@. 😐";
+
+/* badge alert */
+"To use badges you need to enable notifications for %@ in the Settings app." = "Чтобы использовать эту функцию, необходимо сначала включить уведомления в настройках приложения.";
+
+/* to weigh... 70 kg (text box label) */
+"to weigh" = "для веса";
+
+/* current day */
+"today" = "сегодня";
+
+/* total weight gain to date */
+"Total Gain" = "Набранный вес";
+
+/* total weight loss to date */
+"Total Loss" = "Сброшенный вес";
+
+/* weight change direction (up/down) */
+"Trend" = "Тенденция";
+
+/* link wifi scale error */
+"Unable to connect to %@" = "Невозможно подключиться к %@";
+
+/* unable to send email */
+"Unable to send email" = "Неудалось отправить письмо";
+
+/* underweight BMI */
+"underweight" = "недовес";
+
+/* units (weight/energy) */
+"Units" = "Единицы";
+
+/* Unlink button */
+"Unlink" = "Отвязать";
+
+/* unlink wifi scale */
+"Unlink %@ (WiFi) Scale?" = "Отвязать %@ (WiFi) весы?";
+
+/* touch id message */
+"Unlock Weight Diary" = "Разблокировать Дневник Веса";
+
+/* upgrade to paid version */
+"Upgrade" = "Обновить";
+
+/* upgrade */
+"Upgrade to the full version" = "Обновите до полной версии";
+
+/* verify the new passcode message */
+"Verify new passcode" = "Подтвердите новый пароль";
+
+/* copyright message */
+"Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)" = "Версия %@\nАвторское право © 2010-%ld CurlyBrace Apps Ltd.\nВсе права зарегестрированы.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)";
+
+/* your weight */
+"weight" = "вес";
+
+/* your weight */
+"Weight" = "Вес";
+
+/* translated app name */
+"Weight Diary" = "Дневник Веса";
+
+/* translated app name for lite version */
+"Weight Diary Lite" = "Дневник Веса Лайт";
+
+/* weight loss */
+"weight loss" = "потеря в весе";
+
+/* import/export filename */
+"WeightDiary.csv" = "ДневникВеса.csv";
+
+/* import/export filename for lite version */
+"WeightDiaryLite.csv" = "ДневникВесаЛайт.csv";
+
+/* compliment */
+"Well Done!" = "Браво!";
+
+/* no translation required */
+"Withings" = "Withings";
+
+/* welcome message */
+"You are now ready to record your first weight entry." = "";
+
+/* you must gain... 1kg/week (text box label) */
+"you must gain" = "вы должны набрать";
+
+/* you must lose... 1kg/week (text box label) */
+"you must lose" = "вы должны сбросить";
+
+/* your height */
+"Your Height" = "Рост";
+

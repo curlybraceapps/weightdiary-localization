@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Дневник Веса";
+
+NSUbiquitousContainerName = "Дневник Веса";
+
+NSFaceIDUsageDescription = "Разблокировать Дневник Веса";
+
+NSHealthShareUsageDescription = "Синхронизация с приложением IOS здравоохранения.";
+
+NSHealthUpdateUsageDescription = "Синхронизация с приложением IOS здравоохранения.";

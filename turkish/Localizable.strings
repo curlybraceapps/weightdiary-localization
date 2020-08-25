@@ -1,0 +1,717 @@
+/* wifi scale */
+"%@ WiFi Scale" = "%@ WiFi ölçeği";
+
+/* info message */
+"%@. Please use our web support page." = "%@. Lütfen internet destek sayfamızı kullanın.";
+
+/* X centimetres */
+"%ld cm" = "%ld cm";
+
+/* 1 day */
+"%ld day" = "%ld gün";
+
+/* 3 days */
+"%ld days" = "%ld gün";
+
+/* 1 month */
+"%ld%@ month" = "%ld%@ ay";
+
+/* 3 months */
+"%ld%@ months" = "%ld%@ ay";
+
+/* 1 week */
+"%ld%@ week" = "%ld%@ hafta";
+
+/* 3 weeks */
+"%ld%@ weeks" = "%ld%@ hafta";
+
+/* 1 year */
+"%ld%@ year" = "%ld%@ yıl";
+
+/* 3 years */
+"%ld%@ years" = "%ld%@ yıl";
+
+/* per week (e.g. kg/week) */
+"/week" = "/hafta";
+
+/* weight loss for previous 2 weeks */
+"1 Month" = "1 Ay";
+
+/* weight loss for previous week */
+"1 Week" = "1 Hafta";
+
+/* weight loss for previous 1 year */
+"1 Year" = "1 Yıl";
+
+/* exercise frequency */
+"1-3 days/week" = "1-3 gün/hafta";
+
+/* 1 month shortform (must be two characters) */
+"1m" = "1a";
+
+/* 1 week shortform (must be two characters) */
+"1w" = "1h";
+
+/* 1 year shortform (must be two characters) */
+"1y" = "1y";
+
+/* weight loss for previous 2 weeks */
+"2 Weeks" = "2 Hafta";
+
+/* exercise frequency */
+"2+ daily" = "2+ günlük";
+
+/* 2 weeks shortform (must be two characters) */
+"2w" = "2h";
+
+/* 2 years shortform (must be two characters) */
+"2y" = "2y";
+
+/* weight loss for previous 3 months */
+"3 Months" = "3 Ay";
+
+/* exercise frequency */
+"3-5 days/week" = "3-5 gün/hafta";
+
+/* 3 months shortform (must be two characters) */
+"3m" = "3a";
+
+/* weight loss for previous 6 months */
+"6 Months" = "6 Ay";
+
+/* exercise frequency */
+"6-7 days/week" = "6-7 gün/hafta";
+
+/* 6 months shortform (must be two characters) */
+"6m" = "6a";
+
+/* about the App/information */
+"About" = "Hakkında";
+
+/* exercise level */
+"active" = "aktif";
+
+/* exercise frequency */
+"activity level" = "aktivite seviyesi";
+
+/* notes feature */
+"Add custom notes to your weight entries" = "Rastgele notlar ekleyin";
+
+/* age */
+"age" = "yaş";
+
+/* graph all data (must be short) */
+"all" = "tüm";
+
+/* app store */
+"App Store" = "App Store";
+
+/* theme */
+"Appearance" = "Görünüm";
+
+/* Apple health app */
+"Apple Health" = "Sağlık Uygulaması";
+
+/* info message */
+"At least one weight entry is required to use the calorie calculator." = "Kalori hesaplayıcısını kullanabilmek için en az bir giriş yapılması gerekir.";
+
+/* info message */
+"At least one weight entry is required to use the goal calculator." = "Hedef hesaplayıcısını kullanabilmek için en az bir giriş yapılması gerekir.";
+
+/* automatic */
+"Auto" = "Oto.";
+
+/* automatic backup */
+"Auto Backup" = "Otomatik Yedekleme";
+
+/* enable backup file sync */
+"Auto-load latest backup file to sync data between multiple iOS devices." = "En son yedek dosyaya senkronize.";
+
+/* backup data */
+"Backup" = "Yedek";
+
+/* backup file location */
+"Backup files are located in the Weight Diary folder in iCloud Drive." = "";
+
+/* backup filename */
+"Backup.csv" = "Yedek.csv";
+
+/* backup filename for lite version */
+"BackupLite.csv" = "YedekLite.csv";
+
+/* app icon badge */
+"Badge" = "İşareti";
+
+/* birth date */
+"Birthday" = "Doğum Günü";
+
+/* blue theme */
+"Blue" = "Mavi";
+
+/* body mass index shortform */
+"bmi" = "vke";
+
+/* min/max BMI for display */
+"BMI Range" = "VKE Aralığı";
+
+/* body mass index */
+"Body Mass Index" = "Vücut Kitle Endeksi";
+
+/* by.. Oct 10, 2012 (text box label) */
+"by" = "ile";
+
+/* by adding... 500 cal/day (text box label) */
+"by adding" = "ekleyerek";
+
+/* by cutting... 500 cal/day (text box label) */
+"by cutting" = "keserek";
+
+/* calories/day shortform */
+"cal/day" = "kal/gün";
+
+/* daily calorie requirements calculator */
+"Calorie Calculator" = "Kalori Hesaplayıcı";
+
+/* calories */
+"calories" = "kalori";
+
+/* Cancel button */
+"Cancel" = "İptal";
+
+/* change past entry button */
+"Change Past Entry" = "Önceki Girişi Değiştir";
+
+/* change past (weight) entry? */
+"Change past weight entry?" = "Önceki giriş değiştirilsin mi?";
+
+/* message explaining starting weight setting */
+"Choose a starting date for weight loss/gain and goal calculations.\n\nTip: You can drag in the graph view above to set your starting weight." = "";
+
+/* message explaining start week on setting */
+"Choose the day that the week starts on in the drop-down calendar." = "";
+
+/* centimetres */
+"cm" = "cm";
+
+/* color theme */
+"Color Theme" = "Renk teması";
+
+/* commonly asked questions */
+"Common Questions" = "Genel Sorular";
+
+/* message explaining how the calorie calculator works */
+"Compute your personal daily calorie requirements." = "Kişisel günlük kalori gereksinimlerinizi hesaplayın.";
+
+/* no translation required */
+"CurlyBrace.co.uk" = "CurlyBrace.co.uk";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Current Trend" = "Şuanki Trend";
+
+/* custom */
+"Custom" = "Özel";
+
+/* total daily calorie requirements */
+"daily calorie target" = "günlük kalori hedefi";
+
+/* list of all weight entries ordered by date */
+"Daily Log" = "Günlük Kayıtlar";
+
+/* dark theme */
+"Dark" = "Koyu";
+
+/* data section */
+"Data" = "Veri";
+
+/* App icon badge showing number of days since last weigh-in */
+"Days Missed Badge" = "Eksik Günler Rozeti";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .0" = "Rakam  ,0";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .00" = "Rakam  ,00";
+
+/* delete/remove button */
+"Delete" = "Sil";
+
+/* delete file */
+"Delete %@?" = "%@ dosyasını silinsin mi?";
+
+/* delete 10 weight entries? (confirmation) */
+"Delete %ld weight entries?" = "%ld ağırlık girişi silinsin mi?";
+
+/* delete 1 weight entry? (confirmation) */
+"Delete %ld weight entry?" = "%ld ağırlık girişi silinsin mi?";
+
+/* delete all */
+"Delete All Entries" = "Tüm girişler silinsin mi?";
+
+/* delete confirmation dialog */
+"Delete this weight entry?" = "Bu giriş silinsin mi?";
+
+/* deleting */
+"Deleting…" = "Sil…";
+
+/* discard changes */
+"Discard Changes" = "Değişiklikleri at";
+
+/* Done button (finished) */
+"Done" = "Bitti";
+
+/* earliest */
+"Earliest" = "İlk";
+
+/* Edit button */
+"Edit" = "Düzenle";
+
+/* email */
+"Email" = "E-posta";
+
+/* food energy (calories or kilojoules) */
+"Energy" = "Enerji";
+
+/* 4 digit passcode/password */
+"Enter Passcode" = "Şifre Girin";
+
+/* export data */
+"Export" = "Dışarı Aktar";
+
+/* fat shortform */
+"fat" = "yağ";
+
+/* body fat percentage */
+"Fat %" = "Yağ %";
+
+/* No comment provided by engineer. */
+"Fatal Error. Database is corrupt or was created by a newer version" = "Hata! Veritabanı yüklenirken hata oluştu";
+
+/* gender */
+"female" = "kadın";
+
+/* blue theme */
+"Fifty Shades of Blue" = "Mavi Elli Tonları";
+
+/* no translation required */
+"Fitbit" = "Fitbit";
+
+/* Weight quarter fractions e.g. 140 1/2 */
+"Fractional  ¼ ½ ¾" = "Kesirli  ¼ ½ ¾";
+
+/* fullscreen graph feature */
+"Full-screen multi-touch graph view" = "Tam ekran coklu dokunmalı grafik görünüm";
+
+/* gender/age */
+"Gender & Age" = "Cinsiyet / Yaş";
+
+/* gender/birthday */
+"Gender & Birthday" = "Cinsiyet / Doğum Günü";
+
+/* weight loss goal/target/objective */
+"Goal" = "Hedef";
+
+/* calculate weight loss targets based on your goal */
+"Goal Calculator" = "Hedef Hesaplayıcısı";
+
+/* target weight */
+"Goal Weight" = "Hedef Ağırlık";
+
+/* heaviest recorded weight */
+"Heaviest" = "En Ağır";
+
+/* your height */
+"Height" = "Boy";
+
+/* your height */
+"height" = "boy";
+
+/* help title */
+"Help" = "Yardım";
+
+/* no translation required */
+"help_en" = "help_tr";
+
+/* iCloud Drive */
+"iCloud Drive" = "iCloud Drive";
+
+/* import data */
+"Import" = "İçe Aktar";
+
+/* import file */
+"Import %@?" = "İçe Aktar %@?";
+
+/* No comment provided by engineer. */
+"Import Error" = "Aktarım Hatası";
+
+/* message to transfer data */
+"Import existing data from Weight Diary Lite?" = "Varolan verilerinizi içe aktarmak istermisiniz?\nGünlük Ağırlık Lite";
+
+/* message to transfer data */
+"Import existing data from your latest backup?" = "Varolan verilerinizi içe aktarmak istermisiniz?";
+
+/* No comment provided by engineer. */
+"Import failed" = "Aktarım başarısız";
+
+/* import message */
+"Importing…" = "Aktarılıyor…";
+
+/* inches */
+"in" = "inç";
+
+/* displayed when user types invalid password */
+"Incorrect passcode. Try again." = "Yanlış şifre. Tekrar deneyiniz.";
+
+/* exercise level */
+"intense" = "yoğun";
+
+/* delete entries older than X months */
+"Keep Last %ld Months" = "Son %ld Ay'ı sakla";
+
+/* delete entries older than 1 month */
+"Keep Last 1 Month" = "Son 1 Ay'ı sakla";
+
+/* kilogram shortform */
+"kg" = "kg";
+
+/* kilograms (weight) */
+"Kilograms" = "Kilogram";
+
+/* kilograms (weight) */
+"kilograms" = "kilogram";
+
+/* kilojoules (food energy) */
+"kilojoules" = "kilojul";
+
+/* kilojoules per day shortform */
+"kJ/day" = "kJ/gün";
+
+/* last monday, tuesday, etc. (must work for all weekdays) */
+"Last %@" = "Son %@";
+
+/* sync latest iPad backup */
+"Latest iPad Backup" = "Son Yedekleme";
+
+/* sync latest iPhone backup */
+"Latest iPhone Backup" = "Son Yedekleme";
+
+/* pound shortform */
+"lb" = "lb";
+
+/* light theme */
+"Light" = "Açık";
+
+/* exercise level */
+"light" = "hafif";
+
+/* lightest recorded weight */
+"Lightest" = "En Hafif";
+
+/* Link button */
+"Link Account" = "Hesabı Bağla";
+
+/* link wifi scale */
+"Link your %@ account to automatically import new weight data." = "Yeni ağırlık girişlerinizi otomatik olarak aktarmak için %@ hesabınızı bağlayın.";
+
+/* loading message */
+"Loading…" = "Yükleniyor…";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Longest Trend" = "En Uzun Dönem";
+
+/* gender */
+"male" = "erkek";
+
+/* exercise level */
+"moderate" = "makul";
+
+/* Monday */
+"Monday" = "Pazartesi";
+
+/* morbidly obese BMI */
+"morbidly obese" = "aşırı obez";
+
+/* more options */
+"More…" = "Fazlası…";
+
+/* fullscreen graph feature (iPad) */
+"Multi-touch graph view" = "Coklu dokunmalı grafik görünüm";
+
+/* n/a - not applicable */
+"n/a" = "uygulanamaz";
+
+/* enter your new passcode/password */
+"New passcode" = "Yeni Şifre";
+
+/* Next button */
+"Next" = "Sonraki";
+
+/* no ads feature (iPad) */
+"No ads" = "Reklam yok";
+
+/* no ads feature */
+"No ads. More space to see your data" = "Reklam yok. Verilerinizi görebilmek için daha fazla alan";
+
+/* No files found */
+"NO BACKUP FILES FOUND.\n\n" = "DOSYA BULUNAMADI.\n\n";
+
+/* nothing to delete */
+"No Entries to Delete" = "Silinecek Giriş Yok";
+
+/* exercise frequency */
+"no exercise" = "egzersiz yok";
+
+/* nothing */
+"none" = "hiçbiri";
+
+/* normal BMI */
+"normal" = "normal";
+
+/* not available */
+"Not Available" = "Yok";
+
+/* goal/height not defined */
+"not set" = "girilmedi";
+
+/* Apple health settings */
+"Note: Access permissions are located in the Health app under Sources." = "";
+
+/* notes */
+"Notes" = "Notlar";
+
+/* obese BMI */
+"obese" = "obez";
+
+/* off */
+"Off" = "Kapalı";
+
+/* OK button - not always translated */
+"OK" = "Tamam";
+
+/* old color themes */
+"Older Themes" = "Eski renk temaları";
+
+/* on */
+"On" = "Açık";
+
+/* Weight ounces 140lb 12oz */
+"Ounces  0…15" = "Ons  0…15";
+
+/* overweight BMI */
+"overweight" = "kilolu";
+
+/* ounce shortform */
+"oz" = "oz";
+
+/* 4 digit passcode/password */
+"Passcode" = "Şifre";
+
+/* user did not correctly verify their new passcode */
+"Passcodes do not match. Try again." = "Şifre eşleşmedi. Tekrar deneyiniz.";
+
+/* message explaining how the goal calculator works */
+"Plan your diet by date, weekly change or calorie reduction. Changing any value automatically updates the other ones and calculates the weekly and daily targets you need to achieve your goal." = "Tarihe göre diyetinizi planlayın, haftalık değişim ya da kalori düşüşü. Herhangi bir değeri değiştirmek otomatik olarak diğerini günceller ve hedefinize ulaşmak için günlük ve haftalık olarak hesaplar.";
+
+/* iCloud Drive required message */
+"Please enable iCloud Drive to use this feature." = "iCloud Drive Bu özelliği kullanmak için etkinleştirin.";
+
+/* No comment provided by engineer. */
+"Please ensure Weight Diary has sufficient permissions to use Apple Health.\n\nLook in the Health app under Sources for details." = "";
+
+/* link to app store for rating/reviewing the app */
+"Please Rate %@" = "Bu Uygulamayı Derecelendir";
+
+/* disable wifi scale message */
+"Please unlink your current WiFi scale before linking a new one." = "Diğer bir ağa bağlanmadan önce lütfen bir önceki WiFi bağlantınızı koparınız.";
+
+/* pounds (imperial weight unit) */
+"pounds" = "paund";
+
+/* pounds (imperial weight unit) */
+"Pounds" = "Paund";
+
+/* reset/clear data */
+"Reset" = "Sıfırla";
+
+/* restore data */
+"Restore" = "Geri Yükle";
+
+/* rotate message when big graph empty */
+"rotate device to enter weight" = "ağırlık girebilmek için cihazı döndürün";
+
+/* Save button */
+"Save" = "Kaydet";
+
+/* save changes */
+"Save Changes" = "Değişiklikleri kaydet";
+
+/* send email */
+"Send Feedback" = "Bize Ulaşın";
+
+/* Application settings */
+"Settings" = "Ayarlar";
+
+/* Settings App */
+"Settings App" = "Ayarlar";
+
+/* finished setup */
+"Setup Complete" = "Yapılandırma Tamamlandı";
+
+/* severely obese BMI */
+"severely obese" = "ağır obez";
+
+/* gender */
+"sex" = "cinsiyet";
+
+/* show BMI display on the main screen */
+"Show BMI" = "VKE Göster";
+
+/* app icon badge description */
+"Show number of days since your last weight entry on the app icon." = "";
+
+/* stones shortform */
+"st" = "st";
+
+/* day to start week on in calendar */
+"Start Week On" = "Haftanın Başlayacağı Gün";
+
+/* initial weight */
+"Starting Weight" = "Ilk Ağırlık";
+
+/* UK weight measurement (no translation required?) */
+"Stones" = "Stones (UK)";
+
+/* UK weight measurement (translation required?) */
+"stones" = "stones (UK)";
+
+/* weight fractional units */
+"Sub-units" = "Alt Birimler";
+
+/* summary (title for progress/weight loss section) */
+"Summary" = "Özet";
+
+/* Sunday */
+"Sunday" = "Pazar";
+
+/* sync section */
+"Sync" = "Eşitle";
+
+/* Apple health sync */
+"Sync weight data to the iOS Health app." = "Verileri iOS Sağlık uygulamasıyla senkronize etmeyi etkinleştir?";
+
+/* syncing feature */
+"Sync with Apple Health and popular WiFi scales from Fitbit and Withings" = "Fitbit / Withings ölçekleri ile Senkronizasyon";
+
+/* syncing feature (iPad) */
+"Sync with popular WiFi scales from Fitbit and Withings" = "Fitbit / Withings ölçekleri ile Senkronizasyon";
+
+/* import message */
+"Syncing…" = "Eşitleniyor…";
+
+/* system setting */
+"System" = "Sistem";
+
+/* rating appeal */
+"This version has %@ ratings. :-)" = " %@ beğeni. 😀";
+
+/* rating appeal */
+"This version has no ratings. :-(" = "Beğeni yok. 🙁";
+
+/* rating appeal */
+"This version has only %@ rating. :-(" = "%@ beğeni. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-(" = "%@ beğeni. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-|" = "%@ beğeni. 😐";
+
+/* badge alert */
+"To use badges you need to enable notifications for %@ in the Settings app." = "Bu özelliği kullanmak için öncelikle Ayarlar uygulamasında bildirimleri etkinleştirmeniz gerekir.";
+
+/* to weigh... 70 kg (text box label) */
+"to weigh" = "tartmak";
+
+/* current day */
+"today" = "bugün";
+
+/* total weight gain to date */
+"Total Gain" = "Toplam Kazanılan";
+
+/* total weight loss to date */
+"Total Loss" = "Toplam Kaybedilen";
+
+/* weight change direction (up/down) */
+"Trend" = "Trend";
+
+/* link wifi scale error */
+"Unable to connect to %@" = "%@ bağlanılamıyor";
+
+/* unable to send email */
+"Unable to send email" = "Eposta gönderilemiyor";
+
+/* underweight BMI */
+"underweight" = "zayıf";
+
+/* units (weight/energy) */
+"Units" = "Birim";
+
+/* Unlink button */
+"Unlink" = "Bağlantıyı kopar";
+
+/* unlink wifi scale */
+"Unlink %@ (WiFi) Scale?" = " %@ Bağlantısını kopar?";
+
+/* touch id message */
+"Unlock Weight Diary" = "Günlük Ağırlık kilidini aç";
+
+/* upgrade to paid version */
+"Upgrade" = "Güncelle";
+
+/* upgrade */
+"Upgrade to the full version" = "Tam sürüme güncelleyin";
+
+/* verify the new passcode message */
+"Verify new passcode" = "Yeni şifreyi onaylayın";
+
+/* copyright message */
+"Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)" = "Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)";
+
+/* your weight */
+"weight" = "ağırlık";
+
+/* your weight */
+"Weight" = "Ağırlık";
+
+/* translated app name */
+"Weight Diary" = "Günlük Ağırlık";
+
+/* translated app name for lite version */
+"Weight Diary Lite" = "Günlük Ağırlık Lite";
+
+/* weight loss */
+"weight loss" = "ağırlık kaybı";
+
+/* import/export filename */
+"WeightDiary.csv" = "GünlükAğırlık.csv";
+
+/* import/export filename for lite version */
+"WeightDiaryLite.csv" = "GünlükAğırlıkLite.csv";
+
+/* compliment */
+"Well Done!" = "Aferin!";
+
+/* no translation required */
+"Withings" = "Withings";
+
+/* welcome message */
+"You are now ready to record your first weight entry." = "";
+
+/* you must gain... 1kg/week (text box label) */
+"you must gain" = "kazanmalısın";
+
+/* you must lose... 1kg/week (text box label) */
+"you must lose" = "kaybetmelisin";
+
+/* your height */
+"Your Height" = "Boy";
+

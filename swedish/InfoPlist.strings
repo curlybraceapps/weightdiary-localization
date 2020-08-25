@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Viktdagbok";
+
+NSUbiquitousContainerName = "Viktdagbok";
+
+NSFaceIDUsageDescription = "To unlock Weight Diary when using a passcode.";
+
+NSHealthShareUsageDescription = "Sync your weight data with Apple Health and calculate your BMI and calorie requirements.";
+
+NSHealthUpdateUsageDescription = "Sync your weight data with Apple Health.<";

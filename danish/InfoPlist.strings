@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Vægt Dagbog";
+
+NSUbiquitousContainerName = "Vægt Dagbog";
+
+NSFaceIDUsageDescription = "Lås Vægt Dagbog op";
+
+NSHealthShareUsageDescription = "Synkroniser med iOS Sundhed app.";
+
+NSHealthUpdateUsageDescription = "Synkroniser med iOS Sundhed app.";

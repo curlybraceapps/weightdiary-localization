@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<style type="text/css" media="screen">
+/* Reset based on Eric Meyer's reset */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100.1%; vertical-align: baseline; background: transparent; } body { line-height: 1.1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } table { border-collapse: collapse; border-spacing: 0; } input[type=hidden] { display: none !important; }
+
+:root {
+    color-scheme: light dark;
+    --text-color: #444;
+    --bold-color: #007AFF;
+    --section-color: #ECECEC;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--text-color: #CCC;
+		--bold-color: #FFBC00;
+		--section-color: #323232;
+    }
+}
+
+body {
+	font: -apple-system-body;
+	color: var(--text-color);
+	text-rendering: optimizeLegibility;
+	padding: 1.5em 20px 1.5em; 20px
+}
+
+h1 {
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	padding: 1em 0 1em 0;
+	color: var(--bold-color);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	color: var(--bold-color);
+}
+
+b {
+	color: var(--bold-color);
+}
+
+em {
+	color: var(--bold-color);
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+.accordion {
+	margin-bottom: 0;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+	padding: 15px;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font: -apple-system-headline;
+	font-size: 1.1em;
+	color: var(--text-color);
+}
+
+.accordion label {
+	cursor: pointer;
+	padding: 15px;
+	background: var(--section-color);
+}
+
+.accordion .handle label:before {
+	content: "\002B";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+	content: "\2212";
+}
+</style>
+
+</head>
+<body>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q1">
+  <h1 class="handle">
+    <label for="Q1">Wie funktioniert die App?</label>
+  </h1>
+  <div class="content">
+	<p>Tragen Sie jeden Tag Ihr Gewicht ein und die App berechnet Ihren voraussichtlichen wöchentlichen Gewichtsverlust und zeigt Ihnen die Fortschritte auf dem Weg zu Ihrem Wunschgewicht.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q2">
+  <h1 class="handle">
+    <label for="Q2">Was bedeutet die gelbe Linie?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="trend.png" width="264" height="130" /></p>
+
+	<p>Die gelbe Linie ist Ihre Trendlinie. Vereinfacht gesagt entspricht dies Ihrem durchschnittlichen Gewicht. Bedingt durch die aufgenommenen Wasser- und Nahrungsmenge schwankt Ihr Gewicht jeden Tag etwas nach oben oder unten. Die Trendlinie kompensiert diese Schwankungen.</p>
+
+	<p>Die Trendlinie zieht sich durch die täglichen Schwankungen und zeigt Ihnen dadurch wie sich Ihr Gewicht entwickelt. Idealerweise liegen die meisten Ihrer täglichen Einträge unterhalb der Trendlinie und diese zeigt abwärts: Sie nehmen ab.</p>
+
+	<p>Falls zu viele der täglichen Einträge oberhalb der Trendlinie liegen sollten Sie Ihren Ernährungsplan überprüfen um wieder auf den richtigen Weg zu kommen.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q3">
+  <h1 class="handle">
+    <label for="Q3">Für was stehen die grünen und roten Pfeile?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="arrows_de.png" width="192" height="71" /></p>
+
+	<p>Dei Pfeile zeigen Ihnen auf einen Blick, ob Ihr Tagesgewicht oberhalb oder unterhalb der Trendlinie liegt.</p>
+
+	<p>Der Eintrag "Aktueller Trend" in der Übersicht zeigt, wie viele Tage in Folge Sie über oder unter dem Trend liegen.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q4">
+  <h1 class="handle">
+    <label for="Q4">Was zeigen die Felder Trend und Ziel?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="goal_de.png" width="290" height="74" /></p>
+
+	<p>Hinter Trend sehen Sie Ihre persönliche Gewichtsverlustrate. Durch tippen auf den Wert können Sie umschalten zwischen wöchentlichem Gewichtsverlust bzw. Gewichtszunahme und dem täglichen Kalorienüberschuss bzw. Kaloriendefizit.</p>
+
+	<p>Bei Ziel sehen Sie wahlweise einen Fortschrittsbalken, die geschätzte Restdauer oder die verbleibenden Kilogramm bis zum Erreichen Ihres definierten Wunschgewichtes. Durch antippen schalten Sie zwischen den Ansichten um. Die Anzeige der Restdauer erfolgt allerdings nur wenn Sie auch Gewicht verlieren.</p>
+
+	<p>Da Trend und Ziel aus Ihren aktuellsten täglichen Eintragungen errechnet werden kann es unter Umständen einige Tage dauern bis sich eine Veränderung Ihrer Ernährungsweise in diesen Werten widerspiegelt.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q5">
+  <h1 class="handle">
+    <label for="Q5">Warum weicht die bei Ziel angezeigte Zeit von der im Ziel-Rechner berechneten Zeit ab?</label>
+  </h1>
+  <div class="content">
+	<p>Die Ziel-Anzeige basiert auf den eingegebenen Werten der letzten Tage. Der Ziel-Rechner ist ein Planungstool und es obliegt Ihnen, Ihre Ernährung entsprechend anzupassen bis das Ziel Ihrer Gewichtsverlustrate entspricht.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q6">
+  <h1 class="handle">
+    <label for="Q6">Muss ich mich wirklich jeden Tag wiegen?</label>
+  </h1>
+  <div class="content">
+	<p>Wir beziehen uns bei der Berechnung der Trend- und Zielwerte auf Ihre täglichen Eingaben. Wenn der eine oder andere Tag fehlt ist das nicht schlimm aber wenn zu viele Tage fehlen verfälscht dies die Genauigkeit der geschätzten Werte.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q7">
+  <h1 class="handle">
+    <label for="Q7">Was wäre, wenn ich mich nur einmal in der Woche wiegen würde?</label>
+  </h1>
+  <div class="content">
+	<p>Sorry, aber einmal wiegen pro Woche reicht nicht um verlässliche Vorhersagen zu erhalten und Sie würden den Trend Ihrer Gewichtsveränderung nicht erkennen können.</p>
+
+	<p>Unser Rat lautet: Vertrauen Sie der Trendlinie und versuchen Sie Ihre täglichen Gewichtseinträge unterhalb der Trendlinie zu halten.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q8">
+  <h1 class="handle">
+    <label for="Q8">Was zeigt die BMI-Skala an?</label>
+  </h1>
+  <div class="content">
+	<p><img style="border-width:0px;" src="bmi_fr.png" width="264" height="50" /></p>
+
+	<p>Die Standard-BMI-Skala reicht von 18,5 (normal) auf der links Seite bis zu 35 (fettleibig) rechts. Bitte bedenke Sie, dass dies lediglich Richtlinien sind und der gesunde BMI-Bereich in Abhängigkeit von Alter, Körperbau, Größe und anderer Faktoren schwanken kann. Die obere und untere Grenze des angezeigten BMI-Bereiches können in der Vollversion der App in den Einstellungen geändert werden.</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q9">
+  <h1 class="handle">
+    <label for="Q9">Wie importiere ich ein gespeichertes Backup?</label>
+  </h1>
+  <div class="content">
+	<p>Die Vollversion ermöglicht den Import von Backups. Ein Backup erstellen Sie am einfachsten in dem Sie es sich als eMail schicken lassen. Öffnen Sie die eMail und tippen Sie lange auf die Backup-Datei. Wählen sie dann "Öffnen in Mein Gewicht".</p>
+
+	<p>Um ein Backup aus der Dropbox einzuspielen wählen sie die Datei in der Dropbox aus und tippen auf den Senden-Button. Wählen Sie nun "Öffnen in Mein Gewicht".</p>
+  </div>
+</section>
+
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q10">
+  <h1 class="handle">
+    <label for="Q10">Welches Format wird für den Import verwendet?</label>
+  </h1>
+  <div class="content">
+	<p>Wir nutzen CSV-Dateien da diese von den meisten Tabellenkalkulationen unterstützt werden. Der Beste weg zur Erstellung einer Vorlage ist, wenigstens einen Gewichtseintrag in der App anzulegen und dies dann als Backup zu exportieren. Das Backup (CSV) können Sie dann entsprechend editieren. Falls Sie weitere Details hierzu benötigen kontaktieren Sie uns bitte, wir helfen Ihnen gern.</p>
+  </div>
+</section>
+
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="Q11">
+  <h1 class="handle">
+    <label for="Q11">War das alles?</label>
+  </h1>
+  <div class="content">
+	<p>Ja. Die App ist nicht nur ein Tool um abzunehmen. Sie hilft, Ihr Gewicht im Auge zu behalten da sie Veränderungen erkennt bevor Sie die Auswirkungen zu spüren bekommen.</p>
+
+	<p>Wir möchten Ihnen wirklich gern helfen also zögern Sie bitte nicht uns <a href="mailto:support@curlybrace.co.uk">zu kontaktieren</a> falls Sie weitere Fragen haben. Wenn Sie diese App mögen erzählen Sie Ihren Freunden davon und hinterlassen uns eine <a href="itms-apps://itunes.apple.com/app/idAPP_ID">Bewertung</a> im AppStore.</p>
+  </div>
+</section>
+
+</body>
+</html>

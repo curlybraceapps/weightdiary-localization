@@ -1,0 +1,32 @@
+Viktdagbok - daglig viktspårare
+
+Simple and effective weight loss tracking.
+
+Simply enter your daily weight and let Weight Diary estimate your progress and how long it will take to reach your goal. No guesswork or calorie counting required.
+
+Our trend line cuts through the daily fluctuations in your weight so you know instantly whether you are on track. As long as the trend line is sloping downwards and most of your daily entries are below the line then you are losing weight. It is that simple.
+
+Use our goal and calorie calculators to further plan your diet.
+
+Main Features: 
+
+* Shows your weight, estimated weight loss and goal remaining at a glance
+* Visual BMI (body mass index) display
+* Record your body fat % (for scales that support it) and add custom notes 
+* Our date slider and calendar let you quickly jump to any weight entry 
+* Application badge on the home screen reminds you to weight yourself each day (optional)
+* Graph view shows your daily weights and trend line
+* Turn your device sideways to access a full-screen graph that can display multiple years of weight entries
+* Touch the full-screen graph to see your weight for any date
+* Touch with two fingers on the full-screen graph to see your weight change between two dates  
+* Goal calculator helps you plan your diet and set your daily/weekly goals
+* Calorie calculator helps you work out your total daily calorie target based on your age and other factors
+* Summary view shows your overall progress at a glance 
+* Log view shows individual weight entries and any custom notes you have added
+* Add an optional password or use Touch ID to keep your weight entries private 
+* Choose your units. pounds, kilograms or stones. calories or kilojoules
+* Dark theme option
+* Full data backup, import and export capabilities
+* Sync your weight, BMI and body fat % with the iOS Health app
+* Syncs with popular WiFi scales
+* Comprehensive help and support available in the app

@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Günlük Ağırlık";
+
+NSUbiquitousContainerName = "Günlük Ağırlık";
+
+NSFaceIDUsageDescription = "Günlük Ağırlık kilidini aç";
+
+NSHealthShareUsageDescription = "iOS Sağlık uygulaması ile senkronize.";
+
+NSHealthUpdateUsageDescription = "iOS Sağlık uygulaması ile senkronize.";

@@ -1,0 +1,720 @@
+/* wifi scale */
+"%@ WiFi Scale" = "%@ WiFi mérleg";
+
+/* info message */
+"%@. Please use our web support page." = "%@. Kérem látogasson el weboldalunkra.";
+
+/* X centimetres */
+"%ld cm" = "%ld cm";
+
+/* 1 day */
+"%ld day" = "%ld nap";
+
+/* 3 days */
+"%ld days" = "%ld nap";
+
+/* 1 month */
+"%ld%@ month" = "%ld%@ hónap";
+
+/* 3 months */
+"%ld%@ months" = "%ld%@ hónap";
+
+/* 1 week */
+"%ld%@ week" = "%ld%@ hét";
+
+/* 3 weeks */
+"%ld%@ weeks" = "%ld%@ hét";
+
+/* 1 year */
+"%ld%@ year" = "%ld%@ év";
+
+/* 3 years */
+"%ld%@ years" = "%ld%@ év";
+
+/* per week (e.g. kg/week) */
+"/week" = "/hét";
+
+/* weight loss for previous 2 weeks */
+"1 Month" = "1 Hónap";
+
+/* weight loss for previous week */
+"1 Week" = "1 Hét";
+
+/* weight loss for previous 1 year */
+"1 Year" = "1 Év";
+
+/* exercise frequency */
+"1-3 days/week" = "1-3 nap/hét";
+
+/* 1 month shortform (must be two characters) */
+"1m" = "1H";
+
+/* 1 week shortform (must be two characters) */
+"1w" = "1h";
+
+/* 1 year shortform (must be two characters) */
+"1y" = "1é";
+
+/* weight loss for previous 2 weeks */
+"2 Weeks" = "2 Hét";
+
+/* exercise frequency */
+"2+ daily" = "2+ naponta";
+
+/* 2 weeks shortform (must be two characters) */
+"2w" = "2h";
+
+/* 2 years shortform (must be two characters) */
+"2y" = "2é";
+
+/* weight loss for previous 3 months */
+"3 Months" = "3 Hónap";
+
+/* exercise frequency */
+"3-5 days/week" = "3-5 nap/hét";
+
+/* 3 months shortform (must be two characters) */
+"3m" = "3H";
+
+/* weight loss for previous 6 months */
+"6 Months" = "6 Hónap";
+
+/* exercise frequency */
+"6-7 days/week" = "6-7 nap/hét";
+
+/* 6 months shortform (must be two characters) */
+"6m" = "6m";
+
+/* about the App/information */
+"About" = "Súgó";
+
+/* exercise level */
+"active" = "aktív";
+
+/* exercise frequency */
+"activity level" = "aktivitási szint";
+
+/* notes feature */
+"Add custom notes to your weight entries" = "Egyéni jegyzetek";
+
+/* age */
+"age" = "kor";
+
+/* graph all data (must be short) */
+"all" = "mind";
+
+/* app store */
+"App Store" = "App Store";
+
+/* theme */
+"Appearance" = "Megjelenés";
+
+/* Apple health app */
+"Apple Health" = "iOS Egészség";
+
+/* info message */
+"At least one weight entry is required to use the calorie calculator." = "Legalább egy súlyadat szükséges a kalória számítás elvégzéséhez.";
+
+/* info message */
+"At least one weight entry is required to use the goal calculator." = "Legalább egy súlyadat szükséges a célsúly kiszámításához.";
+
+/* automatic */
+"Auto" = "Automata";
+
+/* automatic backup */
+"Auto Backup" = "Biztonsági Mentés Auto.";
+
+/* enable backup file sync */
+"Auto-load latest backup file to sync data between multiple iOS devices." = "Szinkronizálni a legutóbbi mentés fájl.";
+
+/* backup data */
+"Backup" = "Biztonsági Mentés";
+
+/* backup file location */
+"Backup files are located in the Weight Diary folder in iCloud Drive." = "";
+
+/* backup filename */
+"Backup.csv" = "BiztonságiMentés.csv";
+
+/* backup filename for lite version */
+"BackupLite.csv" = "BiztonságiMentésLite.csv";
+
+/* app icon badge */
+"Badge" = "Jelvény";
+
+/* birth date */
+"Birthday" = "Születésnap";
+
+/* blue theme */
+"Blue" = "Kék";
+
+/* body mass index shortform */
+"bmi" = "tti";
+
+/* min/max BMI for display */
+"BMI Range" = "TTI skála";
+
+/* body mass index */
+"Body Mass Index" = "Testtömegindex";
+
+/* by.. Oct 10, 2012 (text box label) */
+"by" = "ekkorra:";
+
+/* by adding... 500 cal/day (text box label) */
+"by adding" = "kcal növelés";
+
+/* by cutting... 500 cal/day (text box label) */
+"by cutting" = "kcal csökkentés";
+
+/* calories/day shortform */
+"cal/day" = "kcal/nap";
+
+/* daily calorie requirements calculator */
+"Calorie Calculator" = "Kalória Kalkulátor";
+
+/* calories */
+"calories" = "kalória";
+
+/* Cancel button */
+"Cancel" = "Mégsem";
+
+/* change past entry button */
+"Change Past Entry" = "IGEN";
+
+/* change past (weight) entry? */
+"Change past weight entry?" = "Biztosan megváltoztatja?";
+
+/* message explaining starting weight setting */
+"Choose a starting date for weight loss/gain and goal calculations.\n\nTip: You can drag in the graph view above to set your starting weight." = "";
+
+/* message explaining start week on setting */
+"Choose the day that the week starts on in the drop-down calendar." = "";
+
+/* centimetres */
+"cm" = "cm";
+
+/* color theme */
+"Color Theme" = "Színtéma";
+
+/* commonly asked questions */
+"Common Questions" = "Gyakori Kérdések";
+
+/* message explaining how the calorie calculator works */
+"Compute your personal daily calorie requirements." = "Kiszámítja az ön napi kalóriaszükségletét.";
+
+/* no translation required */
+"CurlyBrace.co.uk" = "CurlyBrace.co.uk";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Current Trend" = "Jelenlegi széria";
+
+/* custom */
+"Custom" = "Egyéni";
+
+/* total daily calorie requirements */
+"daily calorie target" = "napi kalóriaszükséglet";
+
+/* list of all weight entries ordered by date */
+"Daily Log" = "Napi Adatok";
+
+/* dark theme */
+"Dark" = "Sötét";
+
+/* dark theme */
+"Dark Theme" = "Sötét Kezelőfelület";
+
+/* data section */
+"Data" = "Adatok";
+
+/* App icon badge showing number of days since last weigh-in */
+"Days Missed Badge" = "Napok kihagyva";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .0" = "Decimális  ,0";
+
+/* Weight decimal fractions e.g. 140.5 */
+"Decimal  .00" = "Decimális  ,00";
+
+/* delete/remove button */
+"Delete" = "Eltávolítás";
+
+/* delete file */
+"Delete %@?" = "Törlés %@?";
+
+/* delete 10 weight entries? (confirmation) */
+"Delete %ld weight entries?" = "Töröl %ld súlybejegyzést?";
+
+/* delete 1 weight entry? (confirmation) */
+"Delete %ld weight entry?" = "Töröl %ld súlybejegyzést?";
+
+/* delete all */
+"Delete All Entries" = "Minden bejegyzés törlése";
+
+/* delete confirmation dialog */
+"Delete this weight entry?" = "Törli ezt a súlybejegyzést?";
+
+/* deleting */
+"Deleting…" = "Eltávolítás…";
+
+/* discard changes */
+"Discard Changes" = "Módosítások elvetése";
+
+/* Done button (finished) */
+"Done" = "Kész";
+
+/* earliest */
+"Earliest" = "Első";
+
+/* Edit button */
+"Edit" = "Szerkesztés";
+
+/* email */
+"Email" = "E-mail";
+
+/* food energy (calories or kilojoules) */
+"Energy" = "Energia";
+
+/* 4 digit passcode/password */
+"Enter Passcode" = "Adja meg a jelkódot";
+
+/* export data */
+"Export" = "Exportálás";
+
+/* fat shortform */
+"fat" = "zsír";
+
+/* body fat percentage */
+"Fat %" = "Zsír %";
+
+/* No comment provided by engineer. */
+"Fatal Error. Database is corrupt or was created by a newer version" = "Hiba! Az adatokat nem lehet betölteni.";
+
+/* gender */
+"female" = "nő";
+
+/* blue theme */
+"Fifty Shades of Blue" = "Ötven kék árnyalatok";
+
+/* no translation required */
+"Fitbit" = "Fitbit";
+
+/* Weight quarter fractions e.g. 140 1/2 */
+"Fractional  ¼ ½ ¾" = "Törtrész  ¼ ½ ¾";
+
+/* fullscreen graph feature */
+"Full-screen multi-touch graph view" = "Teljes képernyős grafikon nézet";
+
+/* gender/age */
+"Gender & Age" = "Neme / Kor";
+
+/* gender/birthday */
+"Gender & Birthday" = "Neme / Születésnap";
+
+/* weight loss goal/target/objective */
+"Goal" = "Cél";
+
+/* calculate weight loss targets based on your goal */
+"Goal Calculator" = "Cél Kalkulátor";
+
+/* target weight */
+"Goal Weight" = "Cél súly";
+
+/* heaviest recorded weight */
+"Heaviest" = "Legnehezebb";
+
+/* your height */
+"Height" = "Magasság";
+
+/* your height */
+"height" = "magasság";
+
+/* help title */
+"Help" = "Segítség";
+
+/* no translation required */
+"help_en" = "help_hu";
+
+/* iCloud Drive */
+"iCloud Drive" = "iCloud Drive";
+
+/* import data */
+"Import" = "Importálás";
+
+/* import file */
+"Import %@?" = "Importálás %@?";
+
+/* No comment provided by engineer. */
+"Import Error" = "Importálási hiba";
+
+/* message to transfer data */
+"Import existing data from Weight Diary Lite?" = "Szeretné importálni a már meglévő adatokat?\nSúly Napló Lite";
+
+/* message to transfer data */
+"Import existing data from your latest backup?" = "Szeretné importálni a már meglévő adatokat?";
+
+/* No comment provided by engineer. */
+"Import failed" = "Importálás nem sikerült";
+
+/* import message */
+"Importing…" = "Importálás…";
+
+/* inches */
+"in" = "inch";
+
+/* displayed when user types invalid password */
+"Incorrect passcode. Try again." = "Helytelen jelkód. Próbálja újra.";
+
+/* exercise level */
+"intense" = "intenzív";
+
+/* delete entries older than X months */
+"Keep Last %ld Months" = "Utolsó %ld hónap maradjon";
+
+/* delete entries older than 1 month */
+"Keep Last 1 Month" = "Utolsó hónap maradjon";
+
+/* kilogram shortform */
+"kg" = "kg";
+
+/* kilograms (weight) */
+"Kilograms" = "Kilogramm";
+
+/* kilograms (weight) */
+"kilograms" = "kilogramm";
+
+/* kilojoules (food energy) */
+"kilojoules" = "kilojoule";
+
+/* kilojoules per day shortform */
+"kJ/day" = "kJ/nap";
+
+/* last monday, tuesday, etc. (must work for all weekdays) */
+"Last %@" = "Múlt %@";
+
+/* sync latest iPad backup */
+"Latest iPad Backup" = "Legutóbbi biztonsági mentés";
+
+/* sync latest iPhone backup */
+"Latest iPhone Backup" = "Legutóbbi biztonsági mentés";
+
+/* pound shortform */
+"lb" = "lb";
+
+/* light theme */
+"Light" = "Világos";
+
+/* exercise level */
+"light" = "könnyed";
+
+/* lightest recorded weight */
+"Lightest" = "Legkönnyebb";
+
+/* Link button */
+"Link Account" = "Fiók csatolása";
+
+/* link wifi scale */
+"Link your %@ account to automatically import new weight data." = "Kapcsolja össze %@ fiókját ahhoz, hogy az új súlyadatok automatikusan szinkronizálásra kerüljenek.";
+
+/* loading message */
+"Loading…" = "Betöltés…";
+
+/* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
+"Longest Trend" = "Leghosszabb széria";
+
+/* gender */
+"male" = "férfi";
+
+/* exercise level */
+"moderate" = "közepes";
+
+/* Monday */
+"Monday" = "Hétfő";
+
+/* morbidly obese BMI */
+"morbidly obese" = "kórosan elhízott";
+
+/* more options */
+"More…" = "Továbbiak…";
+
+/* fullscreen graph feature (iPad) */
+"Multi-touch graph view" = "Interaktív grafikon";
+
+/* n/a - not applicable */
+"n/a" = "n/a";
+
+/* enter your new passcode/password */
+"New passcode" = "Új jelkód";
+
+/* Next button */
+"Next" = "Következő";
+
+/* no ads feature (iPad) */
+"No ads" = "Nincs hirdetés";
+
+/* no ads feature */
+"No ads. More space to see your data" = "Nincs hirdetés, több szabad hely a fontos adatoknak";
+
+/* No files found */
+"NO BACKUP FILES FOUND.\n\n" = "NEM TALÁLHATÓ FÁJL.\n\n";
+
+/* nothing to delete */
+"No Entries to Delete" = "Nincs mit törölni";
+
+/* exercise frequency */
+"no exercise" = "nincs gyakorlat";
+
+/* nothing */
+"none" = "semmi";
+
+/* normal BMI */
+"normal" = "normális";
+
+/* not available */
+"Not Available" = "Nem elérhető";
+
+/* goal/height not defined */
+"not set" = "nincs beállítva";
+
+/* Apple health settings */
+"Note: Access permissions are located in the Health app under Sources." = "";
+
+/* notes */
+"Notes" = "Megjegyzések";
+
+/* obese BMI */
+"obese" = "elhízott";
+
+/* off */
+"Off" = "Ki";
+
+/* OK button - not always translated */
+"OK" = "OK";
+
+/* old color themes */
+"Older Themes" = "Régi színtémák";
+
+/* on */
+"On" = "Be";
+
+/* Weight ounces 140lb 12oz */
+"Ounces  0…15" = "Uncia  0…15";
+
+/* overweight BMI */
+"overweight" = "túlsúlyos";
+
+/* ounce shortform */
+"oz" = "oz";
+
+/* 4 digit passcode/password */
+"Passcode" = "Jelkód";
+
+/* user did not correctly verify their new passcode */
+"Passcodes do not match. Try again." = "A jelkódok nem egyeznek. Próbálja újra.";
+
+/* message explaining how the goal calculator works */
+"Plan your diet by date, weekly change or calorie reduction. Changing any value automatically updates the other ones and calculates the weekly and daily targets you need to achieve your goal." = "Tervezze meg diétáját dátum, heti változás vagy napi kalóriacsökkentés alapján. Ezen adatokon változtatva a másik két adat automatikusan változik és kiszámítja a heti és napi célokat ahhoz, hogy végső tervezett súlyát elérhesse.";
+
+/* iCloud Drive required message */
+"Please enable iCloud Drive to use this feature." = "Használj iCloud Drive funkció használatához.";
+
+/* No comment provided by engineer. */
+"Please ensure Weight Diary has sufficient permissions to use Apple Health.\n\nLook in the Health app under Sources for details." = "";
+
+/* link to app store for rating/reviewing the app */
+"Please Rate %@" = "Értékelje az alkalmazást";
+
+/* disable wifi scale message */
+"Please unlink your current WiFi scale before linking a new one." = "Kérem előbb válassza le a jelenlegi WiFi mérlegét mielőtt újat adna hozzá.";
+
+/* pounds (imperial weight unit) */
+"pounds" = "font";
+
+/* pounds (imperial weight unit) */
+"Pounds" = "Font";
+
+/* reset/clear data */
+"Reset" = "Alaphelyzet";
+
+/* restore data */
+"Restore" = "Visszaállítás";
+
+/* rotate message when big graph empty */
+"rotate device to enter weight" = "forgassa el készülékéta súly megadásához";
+
+/* Save button */
+"Save" = "Mentés";
+
+/* save changes */
+"Save Changes" = "Módosítások mentése";
+
+/* send email */
+"Send Feedback" = "Kapcsolat";
+
+/* Application settings */
+"Settings" = "Beállítások";
+
+/* Settings App */
+"Settings App" = "Beállítások";
+
+/* finished setup */
+"Setup Complete" = "A beállítás kész";
+
+/* severely obese BMI */
+"severely obese" = "nagyon elhízott";
+
+/* gender */
+"sex" = "neme";
+
+/* show BMI display on the main screen */
+"Show BMI" = "TTI mutatása";
+
+/* app icon badge description */
+"Show number of days since your last weight entry on the app icon." = "";
+
+/* stones shortform */
+"st" = "st";
+
+/* day to start week on in calendar */
+"Start Week On" = "Hét kezdőnapja";
+
+/* initial weight */
+"Starting Weight" = "Kezdeti Súly";
+
+/* UK weight measurement (no translation required?) */
+"Stones" = "Stones (UK)";
+
+/* UK weight measurement (translation required?) */
+"stones" = "stones (UK)";
+
+/* weight fractional units */
+"Sub-units" = "Alegységek";
+
+/* summary (title for progress/weight loss section) */
+"Summary" = "Összegzés";
+
+/* Sunday */
+"Sunday" = "Vasárnap";
+
+/* sync section */
+"Sync" = "Szinkronizálás";
+
+/* Apple health sync */
+"Sync weight data to the iOS Health app." = "Engedélyezi a súlyadatok szinkronizálását az iOS Egészség alkalmazással?";
+
+/* syncing feature */
+"Sync with Apple Health and popular WiFi scales from Fitbit and Withings" = "Szinkronizálni az Egészség app és Fitbit/Withings mérleg";
+
+/* syncing feature (iPad) */
+"Sync with popular WiFi scales from Fitbit and Withings" = "Szinkronizálni az Fitbit/Withings mérleg";
+
+/* import message */
+"Syncing…" = "Szinkronizálás…";
+
+/* system setting */
+"System" = "Rendszer";
+
+/* rating appeal */
+"This version has %@ ratings. :-)" = "%@ minősítés. 😀";
+
+/* rating appeal */
+"This version has no ratings. :-(" = "Nincsenek minősítések. 🙁";
+
+/* rating appeal */
+"This version has only %@ rating. :-(" = "%@ minősítés. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-(" = "%@ minősítés. 🙁";
+
+/* rating appeal */
+"This version has only %@ ratings. :-|" = "%@ minősítés. 😐";
+
+/* badge alert */
+"To use badges you need to enable notifications for %@ in the Settings app." = "Ezen funkció használatához először be kell kapcsolni az értesítéseket a Beállítások alkalmazásban.";
+
+/* to weigh... 70 kg (text box label) */
+"to weigh" = "cél súly";
+
+/* current day */
+"today" = "ma";
+
+/* total weight gain to date */
+"Total Gain" = "Teljes súlygyarapodás";
+
+/* total weight loss to date */
+"Total Loss" = "Teljes súlyvesztés";
+
+/* weight change direction (up/down) */
+"Trend" = "Trend";
+
+/* link wifi scale error */
+"Unable to connect to %@" = "Nem sikerült csatlakozni a %@";
+
+/* unable to send email */
+"Unable to send email" = "Sikertelen e-mail küldés";
+
+/* underweight BMI */
+"underweight" = "sovány";
+
+/* units (weight/energy) */
+"Units" = "Egység";
+
+/* Unlink button */
+"Unlink" = "Leválasztás";
+
+/* unlink wifi scale */
+"Unlink %@ (WiFi) Scale?" = "Leválasztja a %@ (WiFi) Mérleget?";
+
+/* touch id message */
+"Unlock Weight Diary" = "Kinyit Súly Napló";
+
+/* upgrade to paid version */
+"Upgrade" = "Teljes verzió";
+
+/* upgrade */
+"Upgrade to the full version" = "Frissítsen a teljes verzióra";
+
+/* verify the new passcode message */
+"Verify new passcode" = "Ismételje meg az ÚJ jelkódot!";
+
+/* copyright message */
+"Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)" = "Verzió %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nMinden jog fenntartva.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)";
+
+/* your weight */
+"weight" = "súly";
+
+/* your weight */
+"Weight" = "Súly";
+
+/* translated app name */
+"Weight Diary" = "Súly Napló";
+
+/* translated app name for lite version */
+"Weight Diary Lite" = "Súly Napló Lite";
+
+/* weight loss */
+"weight loss" = "tervezett ütem";
+
+/* import/export filename */
+"WeightDiary.csv" = "SúlyNapló.csv";
+
+/* import/export filename for lite version */
+"WeightDiaryLite.csv" = "SúlyNaplóLite.csv";
+
+/* compliment */
+"Well Done!" = "Gratulálok!";
+
+/* no translation required */
+"Withings" = "Withings";
+
+/* welcome message */
+"You are now ready to record your first weight entry." = "";
+
+/* you must gain... 1kg/week (text box label) */
+"you must gain" = "önnek fel kell szednie";
+
+/* you must lose... 1kg/week (text box label) */
+"you must lose" = "önnek le kell fogynia";
+
+/* your height */
+"Your Height" = "Magasság";
+
