@@ -4,8 +4,8 @@ CFBundleDisplayName = "Viktdagbok";
 
 NSUbiquitousContainerName = "Viktdagbok";
 
-NSFaceIDUsageDescription = "To unlock Weight Diary when using a passcode.";
+NSFaceIDUsageDescription = "För att låsa upp Viktdagbok när du använder en lösenkod.";
 
-NSHealthShareUsageDescription = "Sync your weight data with Apple Health and calculate your BMI and calorie requirements.";
+NSHealthShareUsageDescription = "Synkronisera din viktdata med Apple Hälsa och beräkna dina BMI- och kalorikrav.";
 
-NSHealthUpdateUsageDescription = "Sync your weight data with Apple Health.<";
+NSHealthUpdateUsageDescription = "Synkronisera din viktdata med Apple Hälsa.";
