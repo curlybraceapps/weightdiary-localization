@@ -1,8 +1,8 @@
 /* wifi scale */
-"%@ WiFi Scale" = "";
+"%@ WiFi Scale" = "%@ WiFi-våg";
 
 /* info message */
-"%@. Please use our web support page." = "";
+"%@. Please use our web support page." = "%@. Använd vår webbsupportsida.";
 
 /* X centimetres */
 "%ld cm" = "%ld cm";
@@ -35,13 +35,13 @@
 "/week" = "/vecka";
 
 /* weight loss for previous 2 weeks */
-"1 Month" = "1 Månad";
+"1 Month" = "1 månad";
 
 /* weight loss for previous week */
-"1 Week" = "1 Vecka";
+"1 Week" = "1 vecka";
 
 /* weight loss for previous 1 year */
-"1 Year" = "1 År";
+"1 Year" = "1 år";
 
 /* exercise frequency */
 "1-3 days/week" = "1-3 dagar/vecka";
@@ -56,10 +56,10 @@
 "1y" = "1å";
 
 /* weight loss for previous 2 weeks */
-"2 Weeks" = "2 Veckor";
+"2 Weeks" = "2 veckor";
 
 /* exercise frequency */
-"2+ daily" = "2+ daily";
+"2+ daily" = "2+ dagligen";
 
 /* 2 weeks shortform (must be two characters) */
 "2w" = "2v";
@@ -68,7 +68,7 @@
 "2y" = "2å";
 
 /* weight loss for previous 3 months */
-"3 Months" = "3 Månader";
+"3 Months" = "3 månader";
 
 /* exercise frequency */
 "3-5 days/week" = "3-5 dagar/vecka";
@@ -77,7 +77,7 @@
 "3m" = "3m";
 
 /* weight loss for previous 6 months */
-"6 Months" = "6 Månader";
+"6 Months" = "6 månader";
 
 /* exercise frequency */
 "6-7 days/week" = "6-7 dagar/vecka";
@@ -89,13 +89,13 @@
 "About" = "Om";
 
 /* exercise level */
-"active" = "";
+"active" = "aktiv";
 
 /* exercise frequency */
-"activity level" = "";
+"activity level" = "aktivitetsnivå";
 
 /* notes feature */
-"Add custom notes to your weight entries" = "";
+"Add custom notes to your weight entries" = "Lägg till anpassade anteckningar till dina viktinmatningar";
 
 /* age */
 "age" = "ålder";
@@ -110,34 +110,34 @@
 "Appearance" = "Utseende";
 
 /* Apple health app */
-"Apple Health" = "";
+"Apple Health" = "Apple Hälsa";
 
 /* info message */
-"At least one weight entry is required to use the calorie calculator." = "";
+"At least one weight entry is required to use the calorie calculator." = "Minst en viktinmatning krävs för att använda kalorikalkylatorn.";
 
 /* info message */
-"At least one weight entry is required to use the goal calculator." = "";
+"At least one weight entry is required to use the goal calculator." = "Minst en viktinmatning krävs för att använda målkalkylatorn.";
 
 /* automatic */
 "Auto" = "Auto";
 
 /* automatic backup */
-"Auto Backup" = "";
+"Auto Backup" = "Automatisk säkerhetskopiering";
 
 /* enable backup file sync */
-"Auto-load latest backup file to sync data between multiple iOS devices." = "";
+"Auto-load latest backup file to sync data between multiple iOS devices." = "Ladda senaste säkerhetskopieringsfil automatiskt för att synkronisera data mellan flera iOS-enheter.";
 
 /* backup data */
-"Backup" = "";
+"Backup" = "Säkerhetskopiera";
 
 /* backup file location */
-"Backup files are located in the Weight Diary folder in iCloud Drive." = "";
+"Backup files are located in the Weight Diary folder in iCloud Drive." = "Säkerhetskopieringsfiler finns i mappen Weight Diary i iCloud Drive.";
 
 /* backup filename */
-"Backup.csv" = "";
+"Backup.csv" = "Backup.csv";
 
 /* backup filename for lite version */
-"BackupLite.csv" = "";
+"BackupLite.csv" = "BackupLite.csv";
 
 /* app icon badge */
 "Badge" = "Bricka";
@@ -146,31 +146,31 @@
 "Birthday" = "Födelsedag";
 
 /* blue theme */
-"Blue" = "Blå";
+"Blue" = "Blått";
 
 /* body mass index shortform */
 "bmi" = "bmi";
 
 /* min/max BMI for display */
-"BMI Range" = "";
+"BMI Range" = "BMI-intervall";
 
 /* body mass index */
-"Body Mass Index" = "Kroppsmasseindex";
+"Body Mass Index" = "Body Mass Index";
 
 /* by.. Oct 10, 2012 (text box label) */
-"by" = "";
+"by" = "den";
 
 /* by adding... 500 cal/day (text box label) */
-"by adding" = "";
+"by adding" = "genom att öka";
 
 /* by cutting... 500 cal/day (text box label) */
-"by cutting" = "";
+"by cutting" = "genom att minska";
 
 /* calories/day shortform */
-"cal/day" = "kal/dag";
+"cal/day" = "kcal/dag";
 
 /* daily calorie requirements calculator */
-"Calorie Calculator" = "";
+"Calorie Calculator" = "Kalorikalkylator";
 
 /* calories */
 "calories" = "kalorier";
@@ -179,16 +179,16 @@
 "Cancel" = "Avbryt";
 
 /* change past entry button */
-"Change Past Entry" = "";
+"Change Past Entry" = "Ändra tidigare inmatning";
 
 /* change past (weight) entry? */
-"Change past weight entry?" = "";
+"Change past weight entry?" = "Ändra tidigare viktinmatning?";
 
 /* message explaining starting weight setting */
-"Choose a starting date for weight loss/gain and goal calculations.\n\nTip: You can drag in the graph view above to set your starting weight." = "";
+"Choose a starting date for weight loss/gain and goal calculations.\n\nTip: You can drag in the graph view above to set your starting weight." = "Välj ett startdatum för viktminskning/ökning och målberäkningar.\n\nTips: Du kan dra i diagramvyn ovan för att ställa in din startvikt.";
 
 /* message explaining start week on setting */
-"Choose the day that the week starts on in the drop-down calendar." = "";
+"Choose the day that the week starts on in the drop-down calendar." = "Välj den dag som veckan börjar med.";
 
 /* centimetres */
 "cm" = "cm";
@@ -197,43 +197,43 @@
 "Color Theme" = "Färgtema";
 
 /* commonly asked questions */
-"Common Questions" = "";
+"Common Questions" = "Vanliga frågor";
 
 /* message explaining how the calorie calculator works */
-"Compute your personal daily calorie requirements." = "";
+"Compute your personal daily calorie requirements." = "Beräkna dina personliga dagliga kaloribehov.";
 
 /* no translation required */
 "CurlyBrace.co.uk" = "CurlyBrace.co.uk";
 
 /* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
-"Current Trend" = "";
+"Current Trend" = "Nuvarande trend";
 
 /* custom */
-"Custom" = "Anpassat";
+"Custom" = "Anpassad";
 
 /* total daily calorie requirements */
-"daily calorie target" = "";
+"daily calorie target" = "dagligt kalorimål";
 
 /* list of all weight entries ordered by date */
-"Daily Log" = "";
+"Daily Log" = "Daglig logg";
 
 /* dark theme */
 "Dark" = "Mörkt";
 
 /* dark theme */
-"Dark Theme" = "";
+"Dark Theme" = "Mörkt tema";
 
 /* data section */
 "Data" = "Data";
 
 /* App icon badge showing number of days since last weigh-in */
-"Days Missed Badge" = "";
+"Days Missed Badge" = "Bricka för missade dagar";
 
 /* Weight decimal fractions e.g. 140.5 */
-"Decimal  .0" = "";
+"Decimal  .0" = "Decimal  .0";
 
 /* Weight decimal fractions e.g. 140.5 */
-"Decimal  .00" = "";
+"Decimal  .00" = "Decimal  .00";
 
 /* delete/remove button */
 "Delete" = "Radera";
@@ -242,16 +242,16 @@
 "Delete %@?" = "Radera %@?";
 
 /* delete 10 weight entries? (confirmation) */
-"Delete %ld weight entries?" = "";
+"Delete %ld weight entries?" = "Radera %ld viktinmatningar?";
 
 /* delete 1 weight entry? (confirmation) */
-"Delete %ld weight entry?" = "";
+"Delete %ld weight entry?" = "Radera %ld viktinmatning?";
 
 /* delete all */
-"Delete All Entries" = "";
+"Delete All Entries" = "Radera alla inmatningar";
 
 /* delete confirmation dialog */
-"Delete this weight entry?" = "";
+"Delete this weight entry?" = "Radera denna viktinmatning?";
 
 /* deleting */
 "Deleting…" = "Raderar…";
@@ -263,64 +263,64 @@
 "Done" = "Klar";
 
 /* earliest */
-"Earliest" = "";
+"Earliest" = "Första";
 
 /* Edit button */
-"Edit" = "Ändra";
+"Edit" = "Redigera";
 
 /* email */
 "Email" = "E-post";
 
 /* food energy (calories or kilojoules) */
-"Energy" = "";
+"Energy" = "Energi";
 
 /* 4 digit passcode/password */
 "Enter Passcode" = "Ange lösenkod";
 
 /* export data */
-"Export" = "Export";
+"Export" = "Exportera";
 
 /* fat shortform */
 "fat" = "";
 
 /* body fat percentage */
-"Fat %" = "";
+"Fat %" = "Fett %";
 
 /* No comment provided by engineer. */
-"Fatal Error. Database is corrupt or was created by a newer version" = "";
+"Fatal Error. Database is corrupt or was created by a newer version" = "Allvarligt fel. Databasen är skadad eller skapades av en nyare version";
 
 /* gender */
 "female" = "kvinna";
 
 /* blue theme */
-"Fifty Shades of Blue" = "";
+"Fifty Shades of Blue" = "Fifty Shades of Blue";
 
 /* no translation required */
 "Fitbit" = "Fitbit";
 
 /* Weight quarter fractions e.g. 140 1/2 */
-"Fractional  ¼ ½ ¾" = "";
+"Fractional  ¼ ½ ¾" = "Bråkdel  ¼ ½ ¾";
 
 /* fullscreen graph feature */
-"Full-screen multi-touch graph view" = "";
+"Full-screen multi-touch graph view" = "Fullskärmsdiagram med multi-touch";
 
 /* gender/age */
-"Gender & Age" = "";
+"Gender & Age" = "Kön & Ålder";
 
 /* gender/birthday */
-"Gender & Birthday" = "";
+"Gender & Birthday" = "Kön & Födelsedag";
 
 /* weight loss goal/target/objective */
 "Goal" = "Mål";
 
 /* calculate weight loss targets based on your goal */
-"Goal Calculator" = "";
+"Goal Calculator" = "Målkalkylator";
 
 /* target weight */
-"Goal Weight" = "";
+"Goal Weight" = "Målvikt";
 
 /* heaviest recorded weight */
-"Heaviest" = "";
+"Heaviest" = "Tyngsta";
 
 /* your height */
 "Height" = "Längd";
@@ -338,49 +338,49 @@
 "iCloud Drive" = "iCloud Drive";
 
 /* import data */
-"Import" = "Import";
+"Import" = "Importera";
 
 /* import file */
-"Import %@?" = "";
+"Import %@?" = "Importera %@?";
 
 /* No comment provided by engineer. */
-"Import Error" = "";
+"Import Error" = "Importeringsfel";
 
 /* message to transfer data */
-"Import existing data from Weight Diary Lite?" = "";
+"Import existing data from Weight Diary Lite?" = "Importera befintlig data från Viktdagbok Lite?";
 
 /* message to transfer data */
-"Import existing data from your latest backup?" = "";
+"Import existing data from your latest backup?" = "Importera befintlig data från din senaste säkerhetskopia?";
 
 /* No comment provided by engineer. */
-"Import failed" = "";
+"Import failed" = "Importering misslyckades";
 
 /* import message */
 "Importing…" = "Importerar…";
 
 /* inches */
-"in" = "tum";
+"in" = "in";
 
 /* displayed when user types invalid password */
 "Incorrect passcode. Try again." = "Felaktig lösenkod. Försök igen.";
 
 /* exercise level */
-"intense" = "";
+"intense" = "intensiv";
 
 /* delete entries older than X months */
-"Keep Last %ld Months" = "";
+"Keep Last %ld Months" = "Behåll senaste %ld månader";
 
 /* delete entries older than 1 month */
-"Keep Last 1 Month" = "";
+"Keep Last 1 Month" = "Behåll senaste månad";
 
 /* kilogram shortform */
 "kg" = "kg";
 
 /* kilograms (weight) */
-"Kilograms" = "Kilo";
+"Kilograms" = "Kilogram";
 
 /* kilograms (weight) */
-"kilograms" = "kilo";
+"kilograms" = "kilogram";
 
 /* kilojoules (food energy) */
 "kilojoules" = "kilojoule";
@@ -389,55 +389,55 @@
 "kJ/day" = "kJ/dag";
 
 /* last monday, tuesday, etc. (must work for all weekdays) */
-"Last %@" = "";
+"Last %@" = "Senaste %@";
 
 /* sync latest iPad backup */
-"Latest iPad Backup" = "";
+"Latest iPad Backup" = "Senaste iPad-säkerhetskopia";
 
 /* sync latest iPhone backup */
-"Latest iPhone Backup" = "";
+"Latest iPhone Backup" = "Senaste iPhone-säkerhetskopia";
 
 /* pound shortform */
 "lb" = "lb";
 
 /* light theme */
-"Light" = "";
+"Light" = "Ljust";
 
 /* exercise level */
-"light" = "";
+"light" = "lätt";
 
 /* lightest recorded weight */
-"Lightest" = "";
+"Lightest" = "Lättast";
 
 /* Link button */
-"Link Account" = "";
+"Link Account" = "Länka konto";
 
 /* link wifi scale */
-"Link your %@ account to automatically import new weight data." = "";
+"Link your %@ account to automatically import new weight data." = "Länka ditt %@-konto för att automatiskt importera ny viktdata.";
 
 /* loading message */
-"Loading…" = "Läser in…";
+"Loading…" = "Laddar…";
 
 /* current trend/streak/series (e.g. consecutive number of days weight has been decreasing or increasing) */
-"Longest Trend" = "";
+"Longest Trend" = "Längsta trend";
 
 /* gender */
 "male" = "man";
 
 /* exercise level */
-"moderate" = "";
+"moderate" = "måttlig";
 
 /* Monday */
 "Monday" = "Måndag";
 
 /* morbidly obese BMI */
-"morbidly obese" = "";
+"morbidly obese" = "sjuklig fetma";
 
 /* more options */
 "More…" = "Mer…";
 
 /* fullscreen graph feature (iPad) */
-"Multi-touch graph view" = "";
+"Multi-touch graph view" = "Diagramvy med multi-touch";
 
 /* n/a - not applicable */
 "n/a" = "–";
@@ -449,25 +449,25 @@
 "Next" = "Nästa";
 
 /* no ads feature (iPad) */
-"No ads" = "";
+"No ads" = "Inga annonser";
 
 /* no ads feature */
-"No ads. More space to see your data" = "";
+"No ads. More space to see your data" = "Inga annonser. Mer utrymme för att se din data";
 
 /* No files found */
-"NO BACKUP FILES FOUND.\n\n" = "";
+"NO BACKUP FILES FOUND.\n\n" = "INGA SÄKERHETSKOPIERINGSFILER HITTADES.\n\n";
 
 /* nothing to delete */
-"No Entries to Delete" = "";
+"No Entries to Delete" = "Inga inmatningar att radera";
 
 /* exercise frequency */
-"no exercise" = "";
+"no exercise" = "ingen träning";
 
 /* nothing */
-"none" = "inget";
+"none" = "ingen";
 
 /* normal BMI */
-"normal" = "normalviktig";
+"normal" = "normal";
 
 /* not available */
 "Not Available" = "Ej tillgängligt";
@@ -476,13 +476,13 @@
 "not set" = "ej angivet";
 
 /* Apple health settings */
-"Note: Access permissions are located in the Health app under Sources." = "";
+"Note: Access permissions are located in the Health app under Sources." = "Obs! Åtkomstbehörigheter finns i appen Hälsa under Källor.";
 
 /* notes */
 "Notes" = "Anteckningar";
 
 /* obese BMI */
-"obese" = "fet";
+"obese" = "fetma";
 
 /* off */
 "Off" = "Av";
@@ -491,64 +491,64 @@
 "OK" = "OK";
 
 /* old color themes */
-"Older Themes" = "";
+"Older Themes" = "Äldre teman";
 
 /* on */
 "On" = "På";
 
 /* Weight ounces 140lb 12oz */
-"Ounces  0…15" = "";
+"Ounces  0…15" = "Ounces  0…15";
 
 /* overweight BMI */
-"overweight" = "överviktig";
+"overweight" = "övervikt";
 
 /* ounce shortform */
-"oz" = "uns";
+"oz" = "oz";
 
 /* 4 digit passcode/password */
 "Passcode" = "Lösenkod";
 
 /* user did not correctly verify their new passcode */
-"Passcodes do not match. Try again." = "";
+"Passcodes do not match. Try again." = "Lösenkoder matchar inte. Försök igen.";
 
 /* message explaining how the goal calculator works */
-"Plan your diet by date, weekly change or calorie reduction. Changing any value automatically updates the other ones and calculates the weekly and daily targets you need to achieve your goal." = "";
+"Plan your diet by date, weekly change or calorie reduction. Changing any value automatically updates the other ones and calculates the weekly and daily targets you need to achieve your goal." = "Planera din kost efter datum, veckovis förändring eller kaloriminskning. Om du ändrar något värde så uppdateras de andra automatiskt och beräknar de veckovisa och dagliga målen du behöver för att uppnå ditt mål.";
 
 /* iCloud Drive required message */
-"Please enable iCloud Drive to use this feature." = "";
+"Please enable iCloud Drive to use this feature." = "Aktivera iCloud Drive för att använda denna funktion.";
 
 /* No comment provided by engineer. */
-"Please ensure Weight Diary has sufficient permissions to use Apple Health.\n\nLook in the Health app under Sources for details." = "";
+"Please ensure Weight Diary has sufficient permissions to use Apple Health.\n\nLook in the Health app under Sources for details." = "Se till att Viktdagbok har tillräckliga behörigheter för att använda Apple Hälsa.\n\nTitta i appen Hälsa under Källor för mer information.";
 
 /* link to app store for rating/reviewing the app */
-"Please Rate %@" = "";
+"Please Rate %@" = "Vänligen betygsätt %@";
 
 /* disable wifi scale message */
-"Please unlink your current WiFi scale before linking a new one." = "";
+"Please unlink your current WiFi scale before linking a new one." = "Koppla bort din nuvarande WiFi-våg innan du länkar till en ny.";
 
 /* pounds (imperial weight unit) */
-"pounds" = "pund";
+"pounds" = "pounds";
 
 /* pounds (imperial weight unit) */
-"Pounds" = "Pund";
+"Pounds" = "Pounds";
 
 /* reset/clear data */
 "Reset" = "Nollställ";
 
 /* restore data */
-"Restore" = "Återskapa";
+"Restore" = "Återställ";
 
 /* rotate message when big graph empty */
-"rotate device to enter weight" = "";
+"rotate device to enter weight" = "rotera enheten för att ange vikt";
 
 /* Save button */
 "Save" = "Spara";
 
 /* save changes */
-"Save Changes" = "";
+"Save Changes" = "Spara ändringar";
 
 /* send email */
-"Send Feedback" = "";
+"Send Feedback" = "Skicka feedback";
 
 /* Application settings */
 "Settings" = "Inställningar";
@@ -560,25 +560,25 @@
 "Setup Complete" = "Inställning klar";
 
 /* severely obese BMI */
-"severely obese" = "";
+"severely obese" = "allvarlig fetma";
 
 /* gender */
 "sex" = "kön";
 
 /* show BMI display on the main screen */
-"Show BMI" = "";
+"Show BMI" = "Visa BMI";
 
 /* app icon badge description */
-"Show number of days since your last weight entry on the app icon." = "";
+"Show number of days since your last weight entry on the app icon." = "Visa antalet dagar på appikonen sedan din senaste viktinmatning.";
 
 /* stones shortform */
 "st" = "st";
 
 /* day to start week on in calendar */
-"Start Week On" = "";
+"Start Week On" = "Börja veckan på";
 
 /* initial weight */
-"Starting Weight" = "";
+"Starting Weight" = "Startvikt";
 
 /* UK weight measurement (no translation required?) */
 "Stones" = "Stones";
@@ -587,7 +587,7 @@
 "stones" = "stones";
 
 /* weight fractional units */
-"Sub-units" = "";
+"Sub-units" = "Underenheter";
 
 /* summary (title for progress/weight loss section) */
 "Summary" = "Sammanfattning";
@@ -596,16 +596,16 @@
 "Sunday" = "Söndag";
 
 /* sync section */
-"Sync" = "Synka";
+"Sync" = "Synkronisering";
 
 /* Apple health sync */
-"Sync weight data to the iOS Health app." = "";
+"Sync weight data to the iOS Health app." = "Synkronisera viktdata till iOS-appen Hälsa.";
 
 /* syncing feature */
-"Sync with Apple Health and popular WiFi scales from Fitbit and Withings" = "";
+"Sync with Apple Health and popular WiFi scales from Fitbit and Withings" = "Synkronisera med Apple Hälsa och populära WiFi-vågar från Fitbit och Withings";
 
 /* syncing feature (iPad) */
-"Sync with popular WiFi scales from Fitbit and Withings" = "";
+"Sync with popular WiFi scales from Fitbit and Withings" = "Synkronisera med populära WiFi-vågar från Fitbit och Withings";
 
 /* import message */
 "Syncing…" = "Synkroniserar…";
@@ -614,70 +614,70 @@
 "System" = "System";
 
 /* rating appeal */
-"This version has %@ ratings. :-)" = "";
+"This version has %@ ratings. :-)" = "Denna version har %@ betyg. :-)";
 
 /* rating appeal */
-"This version has no ratings. :-(" = "";
+"This version has no ratings. :-(" = "Denna version har inga betyg. :-(";
 
 /* rating appeal */
-"This version has only %@ rating. :-(" = "";
+"This version has only %@ rating. :-(" = "Denna version har bara %@ betyg. :-(";
 
 /* rating appeal */
-"This version has only %@ ratings. :-(" = "";
+"This version has only %@ ratings. :-(" = "Denna version har bara %@ betyg. :-(";
 
 /* rating appeal */
-"This version has only %@ ratings. :-|" = "";
+"This version has only %@ ratings. :-|" = "Denna version har bara %@ betyg. :-|";
 
 /* badge alert */
-"To use badges you need to enable notifications for %@ in the Settings app." = "";
+"To use badges you need to enable notifications for %@ in the Settings app." = "För att använda brickor måste du aktivera notiser för %@ i appen Inställningar.";
 
 /* to weigh... 70 kg (text box label) */
-"to weigh" = "";
+"to weigh" = "till vikt";
 
 /* current day */
 "today" = "idag";
 
 /* total weight gain to date */
-"Total Gain" = "";
+"Total Gain" = "Total ökning";
 
 /* total weight loss to date */
-"Total Loss" = "";
+"Total Loss" = "Total minskning";
 
 /* weight change direction (up/down) */
-"Trend" = "";
+"Trend" = "Trend";
 
 /* link wifi scale error */
-"Unable to connect to %@" = "";
+"Unable to connect to %@" = "Kunde inte ansluta till %@";
 
 /* unable to send email */
-"Unable to send email" = "";
+"Unable to send email" = "Kunde inte skicka e-post";
 
 /* underweight BMI */
-"underweight" = "underviktig";
+"underweight" = "undervikt";
 
 /* units (weight/energy) */
-"Units" = "";
+"Units" = "Enheter";
 
 /* Unlink button */
-"Unlink" = "";
+"Unlink" = "Avlänka";
 
 /* unlink wifi scale */
-"Unlink %@ (WiFi) Scale?" = "";
+"Unlink %@ (WiFi) Scale?" = "Avlänka %@ (WiFi)-våg?";
 
 /* touch id message */
-"Unlock Weight Diary" = "";
+"Unlock Weight Diary" = "Lås upp Viktdagbok";
 
 /* upgrade to paid version */
 "Upgrade" = "Uppgradera";
 
 /* upgrade */
-"Upgrade to the full version" = "";
+"Upgrade to the full version" = "Uppgradera till fullversionen";
 
 /* verify the new passcode message */
-"Verify new passcode" = "";
+"Verify new passcode" = "Verifiera ny lösenkod";
 
 /* copyright message */
-"Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)" = "Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)";
+"Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAll Rights Reserved.\n\nSpecial Thanks:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)" = "Version %@\nCopyright © 2010-%ld CurlyBrace Apps Ltd.\nAlla rättigheter förbehållna.\n\nSpeciellt tack till:\nDaniel Bruce, Entypo (entypo.com)\nKeyamoon, Icomoon (icomoon.io)";
 
 /* your weight */
 "weight" = "vikt";
@@ -692,7 +692,7 @@
 "Weight Diary Lite" = "Viktdagbok Lite";
 
 /* weight loss */
-"weight loss" = "";
+"weight loss" = "viktnedgång";
 
 /* import/export filename */
 "WeightDiary.csv" = "Viktdagbok.csv";
@@ -707,13 +707,13 @@
 "Withings" = "Withings";
 
 /* welcome message */
-"You are now ready to record your first weight entry." = "";
+"You are now ready to record your first weight entry." = "Du är nu redo att registrera din första viktinmatning.";
 
 /* you must gain... 1kg/week (text box label) */
-"you must gain" = "";
+"you must gain" = "måste du gå upp";
 
 /* you must lose... 1kg/week (text box label) */
-"you must lose" = "";
+"you must lose" = "måste du gå ned";
 
 /* your height */
 "Your Height" = "Din längd";
