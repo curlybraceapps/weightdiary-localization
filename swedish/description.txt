@@ -1,32 +1,32 @@
 Viktdagbok - daglig viktspårare
 
-Simple and effective weight loss tracking.
+Enkel och effektiv viktminskningsspårning.
 
-Simply enter your daily weight and let Weight Diary estimate your progress and how long it will take to reach your goal. No guesswork or calorie counting required.
+Du behöver bara ange din vikt dagligen och låta Viktdagbok uppskatta dina framsteg och hur lång tid det tar att nå ditt mål. Ingen gissning eller kaloriräkning krävs.
 
-Our trend line cuts through the daily fluctuations in your weight so you know instantly whether you are on track. As long as the trend line is sloping downwards and most of your daily entries are below the line then you are losing weight. It is that simple.
+Vår trendlinje skär igenom de dagliga skillnaderna i din vikt så att du direkt vet om du är på rätt spår. Så länge trendlinjen lutar nedåt, och de flesta av dina dagliga inmatningar är under linjen, då går du ned i vikt. Så enkelt är det.
 
-Use our goal and calorie calculators to further plan your diet.
+Använd vår mål- och kalorikalkylator för att planera din kost.
 
-Main Features: 
+Huvudfunktioner: 
 
-* Shows your weight, estimated weight loss and goal remaining at a glance
-* Visual BMI (body mass index) display
-* Record your body fat % (for scales that support it) and add custom notes 
-* Our date slider and calendar let you quickly jump to any weight entry 
-* Application badge on the home screen reminds you to weight yourself each day (optional)
-* Graph view shows your daily weights and trend line
-* Turn your device sideways to access a full-screen graph that can display multiple years of weight entries
-* Touch the full-screen graph to see your weight for any date
-* Touch with two fingers on the full-screen graph to see your weight change between two dates  
-* Goal calculator helps you plan your diet and set your daily/weekly goals
-* Calorie calculator helps you work out your total daily calorie target based on your age and other factors
-* Summary view shows your overall progress at a glance 
-* Log view shows individual weight entries and any custom notes you have added
-* Add an optional password or use Touch ID to keep your weight entries private 
-* Choose your units. pounds, kilograms or stones. calories or kilojoules
-* Dark theme option
-* Full data backup, import and export capabilities
-* Sync your weight, BMI and body fat % with the iOS Health app
-* Syncs with popular WiFi scales
-* Comprehensive help and support available in the app
+* Visar din vikt, uppskattad viktminskning och kvarvarande mål i en överblick
+* Visuell BMI-visning (body mass index)
+* Registrera ditt kroppsfett % (för vågar som stödjer det) och lägg till anpassade anteckningar 
+* Vårt datumreglage och kalender låter dig snabbt hoppa till valfri viktinmatning
+* Appbricka på hemskärmen påminner dig om att du ska väga dig varje dag (valfritt)
+* Diagramvy visar dina dagliga vikter och trendlinje
+* Vänd din enhet åt sidan för att visa ett fullskärmsdiagram som kan visa flera års viktinmatningar
+* Tryck på fullskärmsdiagrammet för att se din vikt för varje datum
+* Tryck med två fingrar på fullskärmsdiagrammet för att se din viktförändring mellan två datum
+* Målkalkylator som hjälper dig att planera din kost och ställa in dina dagliga/veckovisa mål
+* Kalorikalkylator som hjälper dig att räkna ut ditt totala dagliga kalorimål baserat på din ålder och andra faktorer
+* Sammanfattningsvy som visar en överblick över dina totala framsteg
+* Loggvy som visar enskilda viktinmatningar och alla anpassade anteckningar du har lagt till
+* Lägg till en valfri lösenkod eller använd Touch ID för att hålla dina viktinmatningar privata
+* Välj dina enheter. Pounds, Kilogram eller Stones. Kalorier eller Kilojoules
+* Stöd för mörkt tema
+* Möjlighet till säkerhetskopiering, importering och exportering av data
+* Synkronisera din vikt, BMI och kroppsfett % med iOS-appen Hälsa
+* Synkroniserar med populära WiFi-vågar
+* Omfattande hjälp och support finns i appen
