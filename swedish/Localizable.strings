@@ -281,7 +281,7 @@
 "Export" = "Exportera";
 
 /* fat shortform */
-"fat" = "";
+"fat" = "fett";
 
 /* body fat percentage */
 "Fat %" = "Fett %";
@@ -614,19 +614,19 @@
 "System" = "System";
 
 /* rating appeal */
-"This version has %@ ratings. :-)" = "Denna version har %@ betyg. :-)";
+"This version has %@ ratings. :-)" = "Denna version har %@ betyg. 😀";
 
 /* rating appeal */
-"This version has no ratings. :-(" = "Denna version har inga betyg. :-(";
+"This version has no ratings. :-(" = "Denna version har inga betyg. 🙁";
 
 /* rating appeal */
-"This version has only %@ rating. :-(" = "Denna version har bara %@ betyg. :-(";
+"This version has only %@ rating. :-(" = "Denna version har bara %@ betyg. 🙁";
 
 /* rating appeal */
-"This version has only %@ ratings. :-(" = "Denna version har bara %@ betyg. :-(";
+"This version has only %@ ratings. :-(" = "Denna version har bara %@ betyg. 🙁";
 
 /* rating appeal */
-"This version has only %@ ratings. :-|" = "Denna version har bara %@ betyg. :-|";
+"This version has only %@ ratings. :-|" = "Denna version har bara %@ betyg. 😐";
 
 /* badge alert */
 "To use badges you need to enable notifications for %@ in the Settings app." = "För att använda brickor måste du aktivera notiser för %@ i appen Inställningar.";

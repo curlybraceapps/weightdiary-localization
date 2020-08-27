@@ -71,11 +71,11 @@
 		screenshots.txt			n/a
 
 ### Swedish
-		Localizable.strings		[##########__________]  51%
-		InfoPlist.strings		[####________________]  20%
-		help_sv.html			[____________________]   0%
-		description.txt			[#___________________]   2%
-		screenshots.txt			[____________________]   0%
+		Localizable.strings		[####################] 100%
+		InfoPlist.strings		[####################] 100%
+		help_sv.html			[####################] 100%
+		description.txt			[####################] 100%
+		screenshots.txt			[####################] 100%
 
 ### Turkish
 		Localizable.strings		[###################_]  97%
