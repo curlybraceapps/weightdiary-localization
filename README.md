@@ -1,5 +1,9 @@
 # weightdiary-localization
 
+Currently supported languages are list below. Languages with less than 100% completion have missing strings that need to be translated.
+
+If you would like to contribute to a language that is not listed below please contact us first.
+
 ### Brazil
 		Localizable.strings		[###################_]  97%
 		InfoPlist.strings		[####################] 100%
